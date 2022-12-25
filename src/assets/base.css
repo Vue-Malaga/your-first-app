@@ -3,6 +3,8 @@
 :root {
     --background-color: #222222;
     --text-color-1: #ffffff;
+    --text-color-2: #cccccc;
     --accent-color-1: #007b31;
     --logo-font: "Iceland", cursive;
+    --main-border: 2px solid var(--accent-color-1);
 }
