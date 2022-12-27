@@ -1,5 +1,34 @@
-<script setup>
+<script>
+import { onMounted } from '@vue/runtime-core';
 import { RouterLink } from 'vue-router'
+import { ref } from 'vue';
+import { get } from '../service/http.service';
+export default {
+    name: 'PlaylistList',
+
+    components: {
+        RouterLink
+    },
+
+    data() {
+        return {
+            playlists: []
+        }
+    },
+
+    setup() {
+        const playlists = ref([]);
+
+        onMounted(async () => {
+            const response = await get('http://localhost:3000/playlists');
+            playlists.value = response;
+        });
+
+        return {
+            playlists
+        }
+    }
+}
 
 </script>
 
@@ -7,37 +36,10 @@ import { RouterLink } from 'vue-router'
     <aside>
         <h2>Mis Playlists</h2>
         <ul>
-            <!-- This is an example, it will change to Playlist components or something similar -->
-            <li>PlayList 1</li>
-            <li>PlayList 2</li>
-            <li>PlayList 3</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>PlayList N</li>
-            <li>Last PlayList</li>
+            <li v-for="playlist in playlists" :key="playlist.id">
+                {{ playlist.name }}
+            </li>
         </ul>
-        <!-- Move to a new route that will change the view of the app to one with a form to create a playlist -->
         <RouterLink to="#" class="new-playlist">
             + Crea una nueva
         </RouterLink>
@@ -94,5 +96,4 @@ li:hover {
 .new-playlist:hover {
     color: var(--text-color-1);
 }
-
 </style>
