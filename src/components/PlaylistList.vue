@@ -1,35 +1,15 @@
-<script>
+<script setup>
 import { onMounted } from '@vue/runtime-core';
-import { RouterLink } from 'vue-router'
+import { RouterLink } from 'vue-router';
 import { ref } from 'vue';
 import { get } from '../service/http.service';
-export default {
-    name: 'PlaylistList',
 
-    components: {
-        RouterLink
-    },
+const playlists = ref([]);
 
-    data() {
-        return {
-            playlists: []
-        }
-    },
-
-    setup() {
-        const playlists = ref([]);
-
-        onMounted(async () => {
-            const response = await get('http://localhost:3000/playlists');
-            playlists.value = response;
-        });
-
-        return {
-            playlists
-        }
-    }
-}
-
+onMounted(async () => {
+    const response = await get('http://localhost:3000/playlists');
+    playlists.value = response;
+});
 </script>
 
 <template>
