@@ -82,7 +82,7 @@
         {
             "id": "8a180c69-de9c-416c-a9de-75c1979fc033",
             "name": "Muse",
-            "image": "http://www.muse.mu/images/muse-logo.png",
+            "image": "https://i.scdn.co/image/ab6761610000e5eb0accbbe13e1aa147dd27671c",
             "tracks": [
                 {
                     "id": "5290787a-3d66-4b50-aa9d-eeaf5e1eb8ba",
@@ -169,7 +169,7 @@
         {
             "id": "58cbe12b-4fbb-456c-a1e6-54f526875d4c",
             "name": "The Beatles",
-            "image": "http://www.beatles.com/images/beatles-logo.png",
+            "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
             "tracks": [
                 {
                     "id": "c16a2865-f084-41cc-a865-e134a77a11ac",
