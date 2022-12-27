@@ -19,6 +19,27 @@ onMounted(async () => {
             <li v-for="playlist in playlists" :key="playlist.id">
                 {{ playlist.name }}
             </li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
         </ul>
         <RouterLink to="#" class="new-playlist">
             + Crea una nueva
@@ -38,11 +59,16 @@ aside {
     width: 12vw;
     overflow-y: scroll;
     position: relative;
-    height: 100vh;
+    grid-area: playlist;
 }
 
 h2 {
     padding: 2rem;
+    border-bottom: var(--main-border);
+    margin-bottom: 1rem;
+    background: var(--background-color);
+    position: sticky;
+    top: 0;
 }
 
 ul {
