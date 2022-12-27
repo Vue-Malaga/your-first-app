@@ -15,6 +15,7 @@ header {
     justify-content: space-between;
     padding: 1rem 2rem;
     border-bottom: 2px solid var(--accent-color-1);
+    grid-area: header;
 }
 
 figure {
