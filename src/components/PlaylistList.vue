@@ -38,6 +38,7 @@ aside {
     width: 12vw;
     overflow-y: scroll;
     position: relative;
+    height: 100vh;
 }
 
 h2 {
