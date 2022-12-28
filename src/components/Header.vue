@@ -1,8 +1,13 @@
 <template>
     <header>
         <figure>
-            <img src="../assets/vue_malaga_logo.png" alt="Vue Málaga logo" />
-            <h1>VUETIFY</h1>
+            <RouterLink to="/">
+                <img
+                    src="../assets/vue_malaga_logo.png"
+                    alt="Vue Málaga logo"
+                />
+                <h1>VUETIFY</h1>
+            </RouterLink>
         </figure>
         <!-- Here will be a search bar -->
     </header>
@@ -18,7 +23,8 @@ header {
     grid-area: header;
 }
 
-figure {
+figure,
+figure a {
     display: flex;
     flex-flow: row;
     align-items: center;
