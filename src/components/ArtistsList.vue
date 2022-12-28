@@ -1,9 +1,3 @@
-<template>
-    <section>
-        <Artists v-for="artist in artists" :key="artist.key" :artist="artist" />
-    </section>
-</template>
-
 <script setup>
 import Artists from './Artists.vue';
 import { onMounted } from '@vue/runtime-core';
@@ -18,6 +12,14 @@ onMounted(async () => {
     artists.value = response;
 });
 </script>
+
+<template>
+    <section>
+        <RouterLink v-for="artist in artists" :key="artist.id" :to="{ name: 'artist', params: { id: artist.id } }">
+            <Artists :artist="artist" />
+        </RouterLink>
+    </section>
+</template>
 
 <style scoped>
 section {
