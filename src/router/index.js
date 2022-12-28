@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import ArtistsList from '../components/ArtistsList.vue';
+import ArtistsTracks from '../components/ArtistsTracks.vue';
 import Playlist from '../components/Playlist.vue';
 
 const router = createRouter({
@@ -16,6 +17,12 @@ const router = createRouter({
       component: Playlist,
       props: true
     },
+    {
+      path: "/artist/:id",
+      name: "artist",
+      component: ArtistsTracks,
+      props: true
+    }
   ]
 })
 
