@@ -7,4 +7,5 @@ export const sendRequest = async (method, url, body = null) => {
 };
 
 export const get = (url) => sendRequest('GET', url);
+export const getById = (url, id) => sendRequest('GET', `${url}/${id}`);
 export const post = (url, body) => sendRequest('POST', url, body);

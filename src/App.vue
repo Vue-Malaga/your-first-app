@@ -1,14 +1,12 @@
 <script setup>
 import Header from './components/Header.vue';
 import PlaylistList from './components/PlaylistList.vue';
-import ArtistsList from './components/ArtistsList.vue';
 </script>
 
 <template>
   <div class="container">
     <Header />
     <PlaylistList />
-    <ArtistsList />
     <RouterView />
   </div>
 </template>

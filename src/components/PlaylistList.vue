@@ -17,29 +17,10 @@ onMounted(async () => {
         <h2>Mis Playlists</h2>
         <ul>
             <li v-for="playlist in playlists" :key="playlist.id">
-                {{ playlist.name }}
+                <RouterLink :to="{name: 'playlist', params: {id: playlist.id}}">
+                    {{ playlist.name }}
+                </RouterLink>
             </li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
-            <li>Example</li>
         </ul>
         <RouterLink to="#" class="new-playlist">
             + Crea una nueva
