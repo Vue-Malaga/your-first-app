@@ -65,7 +65,9 @@ li {
     border-left: 2px solid transparent;
 }
 
-li:hover {
+/* :has not working in Firefox */
+li:hover,
+li:has(.active){
     cursor: pointer;
     color: var(--text-color-1);
     border-left: var(--main-border);
