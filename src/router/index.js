@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import ArtistsList from '../components/ArtistsList.vue';
+import NewPlaylist from '../components/NewPlaylist.vue';
 import ArtistsTracks from '../components/ArtistsTracks.vue';
 import Playlist from '../components/Playlist.vue';
 
@@ -10,6 +11,11 @@ const router = createRouter({
     {
       path: "/",
       component: ArtistsList
+    },
+    {
+      path: "/new-playlist",
+      name: "new-playlist",
+      component: NewPlaylist
     },
     {
       path: "/playlist/:id",
