@@ -3,8 +3,10 @@ import { ref } from 'vue';
 import { getById } from '../service/http.service';
 import { watch, onMounted, computed } from '@vue/runtime-core';
 import { defineProps } from '@vue/runtime-core';
+import PlaylistPopup from './PlaylistPopup.vue';
 
 const artist = ref({});
+const tracks = ref([]);
 const totalTime = ref(0);
 const totalTracks = ref(0);
 const props = defineProps({
@@ -14,17 +16,32 @@ const props = defineProps({
     }
 });
 
+const showPopup = (id) => {
+    tracks.value.find(track => track.id === id).isPopupVisible = true;
+};
+
+const hidePopup = (id) => {
+    tracks.value.find(track => track.id === id).isPopupVisible = false;
+};
+
 onMounted(async () => {
     artist.value = await getById(`http://localhost:3000/artists`, props.id);
 
+    tracks.value = artist.value.tracks.map(track => {
+        return {
+            ...track,
+            isPopupVisible: false
+        };
+    });
+
     totalTime.value = computed(() => {
-        return artist.value.tracks.reduce((acc, track) => {
+        return tracks.value.reduce((acc, track) => {
             return acc + track.duration;
         }, 0);
     });
 
     totalTracks.value = computed(() => {
-        return artist.value.tracks.length;
+        return tracks.value.length;
     });
 
     return {
@@ -59,8 +76,9 @@ watch(() => props.id, async () => {
                 <h3><strong>Album</strong></h3>
                 <h3><strong>Año</strong></h3>
             </div>
-            <div v-for="track in artist.tracks" :key="track.id" class="track">
-                <a href="">+</a>
+            <div v-for="track in tracks" :key="track.id" class="track">
+                <a @click="showPopup(track.id)">+</a>
+                <PlaylistPopup v-if="track.isPopupVisible" :track="track" @close-popup="hidePopup(track.id)"/>
                 <img :src="track.image" alt="track.name">
                 <p>{{ track.name }}</p>
                 <p>{{ track.duration }}</p>
@@ -129,6 +147,7 @@ strong {
 
 .track a {
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 .track {
