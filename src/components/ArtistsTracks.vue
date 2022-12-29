@@ -78,7 +78,7 @@ watch(() => props.id, async () => {
             </div>
             <div v-for="track in tracks" :key="track.id" class="track">
                 <a @click="showPopup(track.id)">+</a>
-                <PlaylistPopup v-if="track.isPopupVisible" :track="track" @close-popup="hidePopup(track.id)"/>
+                <PlaylistPopup v-if="track.isPopupVisible" :track="track" @close-popup="hidePopup(track.id)" />
                 <img :src="track.image" alt="track.name">
                 <p>{{ track.name }}</p>
                 <p>{{ track.duration }}</p>
@@ -91,7 +91,7 @@ watch(() => props.id, async () => {
 
 <style scoped>
 section {
-    overflow-y: scroll;
+    overflow-y: auto;
     grid-area: artists;
     padding: 1rem;
 }

@@ -17,7 +17,7 @@ onMounted(async () => {
         <h2>Mis Playlists</h2>
         <ul>
             <li v-for="playlist in playlists" :key="playlist.id">
-                <RouterLink :to="{name: 'playlist', params: {id: playlist.id}}">
+                <RouterLink :to="{ name: 'playlist', params: { id: playlist.id } }">
                     {{ playlist.name }}
                 </RouterLink>
             </li>
@@ -38,7 +38,7 @@ aside {
     justify-content: space-between;
     border-right: 2px solid black;
     width: 12vw;
-    overflow-y: scroll;
+    overflow-y: auto;
     position: relative;
     grid-area: playlist;
 }
@@ -67,7 +67,7 @@ li {
 
 /* :has not working in Firefox */
 li:hover,
-li:has(.active){
+li:has(.active) {
     cursor: pointer;
     color: var(--text-color-1);
     border-left: var(--main-border);
