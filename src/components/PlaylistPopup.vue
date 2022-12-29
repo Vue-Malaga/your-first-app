@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted } from "@vue/runtime-core";
 import { ref } from "vue";
-import { get } from '../service/http.service';
+import { get } from "../service/http.service";
 
 const playlists = ref([]);
 
@@ -10,15 +10,15 @@ const select = (id) => {
     if (selected) {
         selected.classList.remove("selected");
     }
-    document.querySelector(`[data-id="${id}"]`).classList.add("selected");      
+    document.querySelector(`[data-id="${id}"]`).classList.add("selected");
 };
 
 defineProps({
     track: {
         type: Object,
-        required: true
-    }
-})
+        required: true,
+    },
+});
 
 defineEmits(["closePopup"]);
 
@@ -29,11 +29,19 @@ onMounted(async () => {
 </script>
 
 <template>
-    <div>
+    <div class="popup">
         <a class="close-popup" @click="$emit('closePopup')">X</a>
-        <p>Elige la Playlist donde quieras guardar la canción <strong>{{ track.name }}</strong></p>
+        <p>
+            Elige la Playlist donde quieras guardar la canción
+            <strong>{{ track.name }}</strong>
+        </p>
         <ul>
-            <li v-for="playlist in playlists" :key="playlist.id" @click="select(playlist.id)" :data-id="playlist.id">
+            <li
+                v-for="playlist in playlists"
+                :key="playlist.id"
+                @click="select(playlist.id)"
+                :data-id="playlist.id"
+            >
                 {{ playlist.name }}
             </li>
         </ul>
@@ -51,7 +59,7 @@ p {
     font-weight: bold;
 }
 
-div {
+div.popup {
     position: absolute;
     background-color: var(--background-color);
     width: fit-content;
@@ -113,14 +121,15 @@ a.confirm {
 }
 
 .overlay-back {
-    position   : absolute;
-    top        : 0;
-    left       : 0;
-    width      : 100vw;
-    height     : 100vh;
-    background : #000;
-    opacity    : 0.6;
-    filter     : alpha(opacity=60);
-    z-index    : 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    padding: 0;
+    z-index: 5;
+    overflow: hidden;
 }
 </style>
