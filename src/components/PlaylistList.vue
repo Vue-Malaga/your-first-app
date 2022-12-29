@@ -22,7 +22,7 @@ onMounted(async () => {
                 </RouterLink>
             </li>
         </ul>
-        <RouterLink to="#" class="new-playlist">
+        <RouterLink to="/new-playlist" class="new-playlist">
             + Crea una nueva
         </RouterLink>
     </aside>
