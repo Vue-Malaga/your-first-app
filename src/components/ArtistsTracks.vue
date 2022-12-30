@@ -180,16 +180,4 @@ strong {
     overflow: hidden;
     border: var(--main-border)
 }
-
-.message {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: #54a056;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
 </style>

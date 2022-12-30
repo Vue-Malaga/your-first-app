@@ -19,11 +19,23 @@ body {
     overflow: hidden;
 }
 
+.message {
+  align-items: center;
+  background-color: #54a056;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
-    scrollbar-width: auto;
     scrollbar-color: #54a056 #ffffff;
+    scrollbar-width: auto;
 }
 
   /* Chrome, Edge, and Safari */

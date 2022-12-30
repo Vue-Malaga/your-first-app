@@ -98,16 +98,4 @@ section {
     background: var(--accent-color-1);
     color: var(--background-color);
 }
-
-.message {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: #54a056;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
 </style>
