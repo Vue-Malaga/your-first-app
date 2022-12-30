@@ -2,8 +2,13 @@
     <section>
         <div class="new-playlist">
             <h2>Nueva playlist</h2>
-            <input type="text" id="playlist-name" name="playlist-name" placeholder="Nombre de la playlist"
-                v-model="name" />
+            <input
+                type="text"
+                id="playlist-name"
+                name="playlist-name"
+                placeholder="Nombre de la playlist"
+                v-model="name"
+            />
             <button type="submit" @click="createPlaylist">Create</button>
         </div>
     </section>
@@ -11,30 +16,29 @@
 </template>
 
 <script setup>
-import { ref, nextTick } from 'vue'
-import { usePlaylistsStore } from '../stores/playlists';
-import { post } from '../service/http.service'
-import { v4 as uuidv4 } from 'uuid'
+import { ref, nextTick } from "vue";
+import { usePlaylistsStore } from "../stores/playlists";
+import { post } from "../service/http.service";
+import { v4 as uuidv4 } from "uuid";
 
-const name = ref('')
-const isMessageVisible = ref(false)
+const name = ref("");
+const isMessageVisible = ref(false);
 const createPlaylist = () => {
     const newPlaylist = {
         id: uuidv4(),
         name: name.value,
-        tracks: []
+        tracks: [],
+    };
 
-    }
-
-    post('http://localhost:3000/playlists', newPlaylist)
+    post("http://localhost:3000/playlists", newPlaylist)
         .then(() => {
             usePlaylistsStore().fetchPlaylists();
-            popupMessage('Playlist creada');
+            popupMessage("Playlist creada");
         })
         .catch(() => {
-            popupMessage('Ha ocurrido un error');
+            popupMessage("Ha ocurrido un error");
         });
-}
+};
 
 const popupMessage = (message) => {
     isMessageVisible.value = true;
@@ -69,7 +73,6 @@ section {
     font-size: 2rem;
     font-weight: 600;
     color: var(--accent-color-1);
-
 }
 
 .new-playlist input {

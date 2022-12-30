@@ -2,12 +2,16 @@
     <section>
         <figure>
             <div class="artist-image">
-                <img :src="artist.image" :alt="artist.name">
+                <img :src="artist.image" :alt="artist.name" />
             </div>
             <figcaption>
                 <h3>{{ artist.name }}</h3>
-                <p><strong>{{ totalTracks }}</strong> canciones disponibles</p>
-                <p>Horas de musica <strong>{{ totalTime }}</strong> horas</p>
+                <p>
+                    <strong>{{ totalTracks }}</strong> canciones disponibles
+                </p>
+                <p>
+                    Horas de musica <strong>{{ totalTime }}</strong> horas
+                </p>
             </figcaption>
         </figure>
         <div class="tracks">
@@ -21,8 +25,14 @@
             </div>
             <div v-for="track in tracks" :key="track.id" class="track">
                 <a @click="showPopup(track.id)">+</a>
-                <PlaylistPopup v-if="track.isPopupVisible" :track="track" :artist="artist" @close-popup="hidePopup(track.id)" @message="popupMessage" />
-                <img :src="track.image" alt="track.name">
+                <PlaylistPopup
+                    v-if="track.isPopupVisible"
+                    :track="track"
+                    :artist="artist"
+                    @close-popup="hidePopup(track.id)"
+                    @message="popupMessage"
+                />
+                <img :src="track.image" alt="track.name" />
                 <p>{{ track.name }}</p>
                 <p>{{ track.duration }}</p>
                 <p>{{ track.album }}</p>
@@ -34,15 +44,15 @@
 </template>
 
 <script setup>
-import { ref, watch, onMounted, computed, nextTick } from 'vue';
-import { getById } from '../service/http.service';
-import PlaylistPopup from './PlaylistPopup.vue';
+import { ref, watch, onMounted, computed, nextTick } from "vue";
+import { getById } from "../service/http.service";
+import PlaylistPopup from "./PlaylistPopup.vue";
 
 const props = defineProps({
     id: {
         type: String,
-        required: true
-    }
+        required: true,
+    },
 });
 
 const artist = ref({});
@@ -52,11 +62,11 @@ const totalTracks = ref(0);
 const isMessageVisible = ref(false);
 
 const showPopup = (id) => {
-    tracks.value.find(track => track.id === id).isPopupVisible = true;
+    tracks.value.find((track) => track.id === id).isPopupVisible = true;
 };
 
 const hidePopup = (id) => {
-    tracks.value.find(track => track.id === id).isPopupVisible = false;
+    tracks.value.find((track) => track.id === id).isPopupVisible = false;
 };
 
 const popupMessage = (message) => {
@@ -74,10 +84,10 @@ const popupMessage = (message) => {
 onMounted(async () => {
     artist.value = await getById(`http://localhost:3000/artists`, props.id);
 
-    tracks.value = artist.value.tracks.map(track => {
+    tracks.value = artist.value.tracks.map((track) => {
         return {
             ...track,
-            isPopupVisible: false
+            isPopupVisible: false,
         };
     });
 
@@ -93,7 +103,7 @@ onMounted(async () => {
 
     return {
         totalTime,
-        totalTracks
+        totalTracks,
     };
 });
 
@@ -140,7 +150,7 @@ strong {
     height: 200px;
     border-radius: 10px;
     overflow: hidden;
-    border: var(--main-border)
+    border: var(--main-border);
 }
 
 .artist-image img {
@@ -176,6 +186,6 @@ strong {
     height: 50px;
     border-radius: 10px;
     overflow: hidden;
-    border: var(--main-border)
+    border: var(--main-border);
 }
 </style>

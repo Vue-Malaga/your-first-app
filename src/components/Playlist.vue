@@ -10,7 +10,7 @@
                 <p>Duración</p>
             </li>
             <li v-for="track in playlist.tracks" :key="track.song.id">
-                <img :src="track.song.image" :alt="track.song.album">
+                <img :src="track.song.image" :alt="track.song.album" />
                 <h3>
                     <span>{{ track.song.name }}</span>
                     <span>{{ track.artist.name }}</span>
@@ -25,14 +25,14 @@
 </template>
 
 <script setup>
-import { ref, watch, onMounted } from 'vue';
-import { getById } from '../service/http.service';
+import { ref, watch, onMounted } from "vue";
+import { getById } from "../service/http.service";
 
 const props = defineProps({
     id: {
         type: String,
-        required: true
-    }
+        required: true,
+    },
 });
 
 const playlist = ref({});
@@ -73,7 +73,8 @@ h2 {
     z-index: 1;
 }
 
-ul, h4 {
+ul,
+h4 {
     padding: 0 1rem;
     flex-grow: 1;
     flex-shrink: 1;

@@ -15,14 +15,19 @@
                 {{ playlist.name }}
             </li>
         </ul>
-        <a class="confirm disabled" ref="confirmButton" @click="insertTrack(artist, track)">Confirmar</a>
+        <a
+            class="confirm disabled"
+            ref="confirmButton"
+            @click="insertTrack(artist, track)"
+            >Confirmar</a
+        >
     </div>
     <div class="overlay-back"></div>
 </template>
 
 <script setup>
 import { ref, onMounted } from "vue";
-import { usePlaylistsStore } from '../stores/playlists';
+import { usePlaylistsStore } from "../stores/playlists";
 import { put } from "../service/http.service";
 
 const props = defineProps({
@@ -59,7 +64,9 @@ const insertTrack = (artist, song) => {
     }
 
     const playlistId = selected.dataset.id;
-    const playlist = playlists.value.find((playlist) => playlist.id === playlistId);
+    const playlist = playlists.value.find(
+        (playlist) => playlist.id === playlistId
+    );
 
     if (playlist.tracks.find((track) => track.song.id === song.id)) {
         emits("message", "La canción ya está en la playlist");

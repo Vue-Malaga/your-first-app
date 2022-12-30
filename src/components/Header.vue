@@ -9,7 +9,6 @@
                 <h1>VUETIFY</h1>
             </RouterLink>
         </figure>
-        <!-- Here will be a search bar -->
     </header>
 </template>
 

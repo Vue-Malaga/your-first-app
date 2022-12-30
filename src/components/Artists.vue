@@ -14,9 +14,9 @@
 const props = defineProps({
     artist: {
         type: Object,
-        required: true
-    }
-})
+        required: true,
+    },
+});
 </script>
 
 <style scoped>

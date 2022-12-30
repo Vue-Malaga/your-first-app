@@ -2,11 +2,18 @@
     <section>
         <div class="search-box">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Busca tu artista favorito.." v-model="artistSearched" />
+            <input
+                type="text"
+                placeholder="Busca tu artista favorito.."
+                v-model="artistSearched"
+            />
         </div>
         <div class="artists">
-            <RouterLink v-for="artist in filterArtist()" :key="artist.id"
-                :to="{ name: 'artist', params: { id: artist.id } }">
+            <RouterLink
+                v-for="artist in filterArtist()"
+                :key="artist.id"
+                :to="{ name: 'artist', params: { id: artist.id } }"
+            >
                 <Artists :artist="artist" />
             </RouterLink>
         </div>
@@ -14,20 +21,22 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
-import { RouterLink } from 'vue-router';
-import Artists from './Artists.vue';
-import { get } from '../service/http.service';
+import { ref, onMounted } from "vue";
+import { RouterLink } from "vue-router";
+import Artists from "./Artists.vue";
+import { get } from "../service/http.service";
 
 const artists = ref([]);
-const artistSearched = ref('');
+const artistSearched = ref("");
 
 const filterArtist = () => {
-    return artists.value.filter(({ name }) => name.toLowerCase().includes(artistSearched.value.toLowerCase()));
+    return artists.value.filter(({ name }) =>
+        name.toLowerCase().includes(artistSearched.value.toLowerCase())
+    );
 };
 
 onMounted(async () => {
-    const response = await get('http://localhost:3000/artists');
+    const response = await get("http://localhost:3000/artists");
     artists.value = response;
 });
 </script>

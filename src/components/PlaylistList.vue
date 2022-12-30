@@ -15,9 +15,9 @@
 </template>
 
 <script setup>
-import { ref, watch, onMounted } from 'vue';
-import { RouterLink } from 'vue-router';
-import { usePlaylistsStore } from '../stores/playlists';
+import { ref, watch, onMounted } from "vue";
+import { RouterLink } from "vue-router";
+import { usePlaylistsStore } from "../stores/playlists";
 
 const playlists = ref([]);
 
@@ -25,12 +25,9 @@ onMounted(() => {
     playlists.value = usePlaylistsStore().fetchPlaylists();
 });
 
-watch(() => usePlaylistsStore().playlists,
-    (newPlaylists) => {
-        playlists.value = newPlaylists;
-    }
-);
-
+watch(() => usePlaylistsStore().playlists, (newPlaylists) => {
+    playlists.value = newPlaylists;
+});
 </script>
 
 <style scoped>
