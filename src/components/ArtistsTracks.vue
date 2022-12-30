@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import { getById } from '../service/http.service';
-import { watch, onMounted, computed } from '@vue/runtime-core';
+import { watch, onMounted, computed, nextTick } from '@vue/runtime-core';
 import { defineProps } from '@vue/runtime-core';
 import PlaylistPopup from './PlaylistPopup.vue';
 
@@ -9,6 +9,8 @@ const artist = ref({});
 const tracks = ref([]);
 const totalTime = ref(0);
 const totalTracks = ref(0);
+const isMessageVisible = ref(false);
+
 const props = defineProps({
     id: {
         type: String,
@@ -22,6 +24,18 @@ const showPopup = (id) => {
 
 const hidePopup = (id) => {
     tracks.value.find(track => track.id === id).isPopupVisible = false;
+};
+
+const popupMessage = (message) => {
+    isMessageVisible.value = true;
+
+    nextTick(() => {
+        document.querySelector("#message").innerText = message;
+    });
+
+    setTimeout(() => {
+        isMessageVisible.value = false;
+    }, 3000);
 };
 
 onMounted(async () => {
@@ -78,7 +92,7 @@ watch(() => props.id, async () => {
             </div>
             <div v-for="track in tracks" :key="track.id" class="track">
                 <a @click="showPopup(track.id)">+</a>
-                <PlaylistPopup v-if="track.isPopupVisible" :track="track" @close-popup="hidePopup(track.id)" />
+                <PlaylistPopup v-if="track.isPopupVisible" :track="track" :artist="artist" @close-popup="hidePopup(track.id)" @message="popupMessage" />
                 <img :src="track.image" alt="track.name">
                 <p>{{ track.name }}</p>
                 <p>{{ track.duration }}</p>
@@ -87,6 +101,7 @@ watch(() => props.id, async () => {
             </div>
         </div>
     </section>
+    <div class="message" id="message" v-if="isMessageVisible"></div>
 </template>
 
 <style scoped>
@@ -164,5 +179,17 @@ strong {
     border-radius: 10px;
     overflow: hidden;
     border: var(--main-border)
+}
+
+.message {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #54a056;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
 </style>

@@ -1,9 +1,10 @@
 <script setup>
 import { onMounted } from "@vue/runtime-core";
 import { ref } from "vue";
-import { get } from "../service/http.service";
+import { get, put } from "../service/http.service";
 
 const playlists = ref([]);
+const confirmButton = ref(null);
 
 const select = (id) => {
     const selected = document.querySelector(".selected");
@@ -11,6 +12,37 @@ const select = (id) => {
         selected.classList.remove("selected");
     }
     document.querySelector(`[data-id="${id}"]`).classList.add("selected");
+    confirmButton.value.classList.remove("disabled");
+};
+
+const insertTrack = (artist, song) => {
+    const selected = document.querySelector(".selected");
+    if (!selected) {
+        emit("message", "No se ha seleccionado ninguna playlist");
+        emit("closePopup");
+        return;
+    }
+
+    const playlistId = selected.dataset.id;
+    const playlist = playlists.value.find((playlist) => playlist.id === playlistId);
+
+    if (playlist.tracks.find((track) => track.song.id === song.id)) {
+        emit("message", "La canción ya está en la playlist");
+        emit("closePopup");
+        return;
+    }
+
+    playlist.tracks = [...playlist.tracks, { artist: artist, song: song }];
+
+    put(`http://localhost:3000/playlists/${playlist.id}`, playlist)
+        .then(() => {
+            emit("message", "Canción añadida a la playlist");
+            emit("closePopup");
+        })
+        .catch(() => {
+            emit("message", "Ha ocurrido un error");
+            emit("closePopup");
+        });
 };
 
 defineProps({
@@ -18,9 +50,13 @@ defineProps({
         type: Object,
         required: true,
     },
+    artist: {
+        type: Object,
+        required: true,
+    },
 });
 
-defineEmits(["closePopup"]);
+const emit = defineEmits(["closePopup", "message"]);
 
 onMounted(async () => {
     const response = await get("http://localhost:3000/playlists");
@@ -45,7 +81,7 @@ onMounted(async () => {
                 {{ playlist.name }}
             </li>
         </ul>
-        <a class="confirm">Confirmar</a>
+        <a class="confirm disabled" ref="confirmButton" @click="insertTrack(artist, track)">Confirmar</a>
     </div>
     <div class="overlay-back"></div>
 </template>
@@ -103,7 +139,7 @@ a.close-popup {
     background-color: var(--accent-color-1);
 }
 
-a.confirm {
+.confirm {
     display: block;
     text-align: center;
     background-color: var(--accent-color-1);
@@ -113,6 +149,13 @@ a.confirm {
     margin: 0 auto;
     margin-top: 2rem;
     width: fit-content;
+}
+
+.disabled {
+    background-color: #333;
+    color: #aaa;
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .selected {

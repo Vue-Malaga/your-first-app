@@ -1,881 +1,1567 @@
 {
-    "artists": [
+  "artists": [
+    {
+      "id": "d05ff7c2-c22d-4d04-a125-144a327a6ce3",
+      "name": "Gorillaz",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb66337ec430a5bd3d1cfe74f5",
+      "tracks": [
         {
+          "id": "648a883b-a172-4264-8cb7-ad6a6ff16dbc",
+          "name": "Clint Eastwood",
+          "duration": 3.5,
+          "album": "Gorillaz",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+        },
+        {
+          "id": "c09bc21b-524b-455a-a539-d7b8b060881f",
+          "name": "Feel Good Inc.",
+          "duration": 3.5,
+          "album": "Gorillaz",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf"
+        },
+        {
+          "id": "862d6541-f2aa-4de2-9446-5f8e214a34eb",
+          "name": "19-2000",
+          "duration": 3.5,
+          "album": "Gorillaz",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+        },
+        {
+          "id": "f4ae6025-5d3a-413d-bad1-676f95c7f397",
+          "name": "Rock the House",
+          "duration": 3.5,
+          "album": "Gorillaz",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+        },
+        {
+          "id": "a7b71e78-44c0-431c-a753-39bb8097046d",
+          "name": "Tomorrow Comes Today",
+          "duration": 3.5,
+          "album": "Gorillaz",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+        },
+        {
+          "id": "8e0a7ad1-98e0-4161-893a-2e59a96d5331",
+          "name": "New Genious (Brother)",
+          "duration": 3.5,
+          "album": "Gorillaz",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+        },
+        {
+          "id": "f3e75a5c-a80a-4c33-9eb0-0407e828bccc",
+          "name": "Sound Check (Gravity)",
+          "duration": 3.5,
+          "album": "Gorillaz",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+        },
+        {
+          "id": "41da6c15-459d-42de-958a-a3e2d5e2ea12",
+          "name": "Double Bass",
+          "duration": 3.5,
+          "album": "Gorillaz",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+        },
+        {
+          "id": "86290b28-4559-461f-aada-84b3c5605a1f",
+          "name": "Rock the House",
+          "duration": 3.5,
+          "album": "Gorillaz",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+        }
+      ]
+    },
+    {
+      "id": "8a180c69-de9c-416c-a9de-75c1979fc033",
+      "name": "Muse",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0accbbe13e1aa147dd27671c",
+      "tracks": [
+        {
+          "id": "5290787a-3d66-4b50-aa9d-eeaf5e1eb8ba",
+          "name": "Plug In Baby",
+          "duration": 3.5,
+          "album": "Origin of Symmetry",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
+        },
+        {
+          "id": "d36d3acc-9dd2-4973-93d4-f37bcd6c7c11",
+          "name": "Citizen Erased",
+          "duration": 3.5,
+          "album": "Origin of Symmetry",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
+        },
+        {
+          "id": "f387cd66-9133-4ab2-a95a-a9c30be97ca6",
+          "name": "Micro Cuts",
+          "duration": 3.5,
+          "album": "Origin of Symmetry",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
+        },
+        {
+          "id": "392c3f72-1296-4218-9cd1-bdadc51513cb",
+          "name": "Screenager",
+          "duration": 3.5,
+          "album": "Origin of Symmetry",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
+        },
+        {
+          "id": "02b3e886-ecee-42e1-b651-3a39d0ad0f90",
+          "name": "Darkshines",
+          "duration": 3.5,
+          "album": "Origin of Symmetry",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
+        },
+        {
+          "id": "d46ced89-d07a-49b5-b0ed-6b140e58c394",
+          "name": "Feeling Good",
+          "duration": 3.5,
+          "album": "Origin of Symmetry",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
+        },
+        {
+          "id": "05c9ae9c-6abe-4887-b6c6-7a8117151d59",
+          "name": "New Born",
+          "duration": 3.5,
+          "album": "Origin of Symmetry",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
+        },
+        {
+          "id": "7db89d38-9b55-4e1c-a6ce-108d69778309",
+          "name": "Bliss",
+          "duration": 3.5,
+          "album": "Origin of Symmetry",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
+        },
+        {
+          "id": "730849fd-488b-4e1f-9b54-ccc96e77acb6",
+          "name": "Space Dementia",
+          "duration": 3.5,
+          "album": "Origin of Symmetry",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
+        },
+        {
+          "id": "78ed1212-6ba4-4310-b164-dd8ff8215ce4",
+          "name": "Hyper Music",
+          "duration": 3.5,
+          "album": "Origin of Symmetry",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
+        }
+      ]
+    },
+    {
+      "id": "58cbe12b-4fbb-456c-a1e6-54f526875d4c",
+      "name": "The Beatles",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+      "tracks": [
+        {
+          "id": "c16a2865-f084-41cc-a865-e134a77a11ac",
+          "name": "A Hard Day's Night",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        },
+        {
+          "id": "4ce86c4c-40cb-4d57-8ad5-604106c762f1",
+          "name": "I Should Have Known Better",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        },
+        {
+          "id": "b990abc9-467c-4823-b393-406660c7f6bd",
+          "name": "If I Fell",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        },
+        {
+          "id": "1e035a53-8ee0-4d40-9bda-e43d93f0d258",
+          "name": "I'm Happy Just to Dance with You",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        },
+        {
+          "id": "5d7cf479-388b-439f-9f55-9acf08763f98",
+          "name": "And I Love Her",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        },
+        {
+          "id": "beac1a4a-81ef-4cde-8114-b24b7d783f6a",
+          "name": "Tell Me Why",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        },
+        {
+          "id": "a09ed6fb-bd0d-40d4-a35c-02b8f43adf32",
+          "name": "Can't Buy Me Love",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        },
+        {
+          "id": "ca40cf37-0b67-4c13-a4cb-769ee2bfb0e0",
+          "name": "Any Time at All",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        },
+        {
+          "id": "580b5793-0576-4ca7-bee6-887dfb80c2b4",
+          "name": "I'll Cry Instead",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        },
+        {
+          "id": "7714ee3f-8a50-4ca3-8719-84347312dbcf",
+          "name": "Things We Said Today",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        },
+        {
+          "id": "f7e032fc-9fd5-4db7-b788-96ba2dae26d4",
+          "name": "When I Get Home",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        },
+        {
+          "id": "84da508d-fd9e-48d9-b6d9-4a87e5176de7",
+          "name": "You Can't Do That",
+          "duration": 3.5,
+          "album": "A Hard Day's Night",
+          "year": 1964,
+          "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+        }
+      ]
+    },
+    {
+      "id": "7ead9ae9-ea6e-4985-b822-58cfadc2fc55",
+      "name": "Pantera",
+      "image": "https://i.scdn.co/image/ab67616d00001e02351e5afce42349a9550050de",
+      "tracks": [
+        {
+          "id": "45c31699-0eaf-457e-98af-bf35f94b8857",
+          "name": "Cowboys From Hell",
+          "duration": 3.5,
+          "album": "Cowboys From Hell",
+          "year": 1990,
+          "image": "https://i.scdn.co/image/ab67616d0000b2730ce52f4ba340a1e459e6a978"
+        },
+        {
+          "id": "4988f721-0d53-484b-abf5-38b7abc432e7",
+          "name": "Psycho Holiday",
+          "duration": 3.5,
+          "album": "Cowboys From Hell",
+          "year": 1990,
+          "image": "https://i.scdn.co/image/ab67616d0000b2730ce52f4ba340a1e459e6a978"
+        },
+        {
+          "id": "15760d67-10e3-45de-a447-011a13ff3691",
+          "name": "Primal Concrete Sledge",
+          "duration": 3.5,
+          "album": "Cowboys From Hell",
+          "year": 1990,
+          "image": "https://i.scdn.co/image/ab67616d0000b2730ce52f4ba340a1e459e6a978"
+        },
+        {
+          "id": "71dada5e-c1f1-4cc0-8b2b-f5f31e2706ce",
+          "name": "Heresy",
+          "duration": 3.5,
+          "album": "Cowboys From Hell",
+          "year": 1990,
+          "image": "https://i.scdn.co/image/ab67616d0000b2730ce52f4ba340a1e459e6a978"
+        }
+      ]
+    },
+    {
+      "id": "3e930381-b6f3-4b07-a9e2-98caed6ab16c",
+      "name": "Metallica",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb69ca98dd3083f1082d740e44",
+      "tracks": [
+        {
+          "id": "50b22e85-c5b3-41fb-a576-7474021f3d59",
+          "name": "Enter Sandman",
+          "duration": 3.5,
+          "album": "Metallica",
+          "year": 1991,
+          "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+        },
+        {
+          "id": "205b4b97-ceaa-4dde-aa32-93ef0e9bef71",
+          "name": "Sad But True",
+          "duration": 3.5,
+          "album": "Metallica",
+          "year": 1991,
+          "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+        },
+        {
+          "id": "fd58c211-c4c1-4630-815d-5014a2c61985",
+          "name": "Holier Than Thou",
+          "duration": 3.5,
+          "album": "Metallica",
+          "year": 1991,
+          "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+        },
+        {
+          "id": "7a3284ca-4512-4571-b421-51e5984ad0e3",
+          "name": "The Unforgiven",
+          "duration": 3.5,
+          "album": "Metallica",
+          "year": 1991,
+          "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+        },
+        {
+          "id": "a1ec5c8e-9edb-4447-8083-f456103e271f",
+          "name": "Wherever I May Roam",
+          "duration": 3.5,
+          "album": "Metallica",
+          "year": 1991,
+          "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+        },
+        {
+          "id": "0a785c22-aeb2-40a9-acdc-9ac2b2f15b7c",
+          "name": "Don't Tread On Me",
+          "duration": 3.5,
+          "album": "Metallica",
+          "year": 1991,
+          "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+        },
+        {
+          "id": "7e509ab2-7ebe-4cd2-a029-6aeef4ef9df0",
+          "name": "Through The Never",
+          "duration": 3.5,
+          "album": "Metallica",
+          "year": 1991,
+          "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+        },
+        {
+          "id": "51df7ef1-01ce-43ac-8886-3b4e538bd5f2",
+          "name": "Nothing Else Matters",
+          "duration": 3.5,
+          "album": "Metallica",
+          "year": 1991,
+          "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+        }
+      ]
+    },
+    {
+      "id": "fdf22b2d-903f-44ed-b1b9-139fda96359a",
+      "name": "Bring me the horizon",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb001ae3b1275c9ec37a4c550b",
+      "tracks": [
+        {
+          "id": "bb571525-f2a3-424c-b94b-a35ed1b0132f",
+          "name": "Throne",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "98a97f31-05da-4936-b2b5-437395f3b140",
+          "name": "Drown",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "c126803a-72ad-45ea-b9fb-927421243af3",
+          "name": "Happy Song",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "66b97261-9418-4277-9e8d-3f5cca39c13a",
+          "name": "Antivist",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "caa3402e-454d-44f2-bb95-4ad2ebe712e0",
+          "name": "Follow You",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "3f5ba321-c85e-48e0-ab68-ac05f1fae4b4",
+          "name": "Hospital For Souls",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "722150fd-3819-4be6-b212-2c26b26b7dbd",
+          "name": "Nihilist Blues",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "e74a8023-080e-4665-a409-40f9a55389d1",
+          "name": "Shadow Moses",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "c68ab2a8-6dfe-49bb-baca-7b02880a54cf",
+          "name": "True Friends",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "7fe00057-4fb8-4a37-9944-9c2b96eccb9b",
+          "name": "Can You Feel My Heart",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "bc2cf347-0d7b-4035-a63a-15a5458a57da",
+          "name": "Sleepwalking",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "504aa9f5-39a9-4653-8d78-dc24c0e855ea",
+          "name": "Don't Go",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "bdb544f9-a886-492d-9564-cf7a4ad10f88",
+          "name": "The House Of Wolves",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        },
+        {
+          "id": "4ab585a3-9001-4f67-8d61-c1873ed11545",
+          "name": "Chelsea Smile",
+          "duration": 3.5,
+          "album": "Sempiternal",
+          "year": 2013,
+          "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
+        }
+      ]
+    },
+    {
+      "id": "6e57a2ce-1637-414a-90a5-4c402814f5dd",
+      "name": "Slipknot",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebec01c52d6030a1574070e308",
+      "tracks": [
+        {
+          "id": "05feebb7-5ddd-404b-a2b0-47e4066efb84",
+          "name": "The Heretic Anthem",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "3d87866c-f202-4c9f-943e-468c36854880",
+          "name": "People = Shit",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "a6e4725b-5c18-4173-a42a-91636dbfe92b",
+          "name": "Disasterpiece",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "f5d59848-7f32-4a24-b1b9-aa6ea48d2bc9",
+          "name": "Gently",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "730462fc-87a9-4f1e-a220-bbf86185f97b",
+          "name": "My Plague",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "fa8947c0-c98c-471f-8d5e-9d64b8496c6f",
+          "name": "Purity",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "9ba400c2-4d96-4619-ae0f-7e69de9899f9",
+          "name": "The Shape",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "a75f712c-95a6-40fb-8633-fa3976d6d6a4",
+          "name": "Wait And Bleed",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "1d3b5c44-cb85-43fa-9f12-ef171e6acea0",
+          "name": "Everything Ends",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "9a761098-3e2c-486a-b9ac-fb12d02239dd",
+          "name": "Left Behind",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "0f666e9f-b635-40bb-a528-fa9af8bc36c4",
+          "name": "Skin Ticket",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "d0167272-e1c8-4de6-8f72-6653e79843c1",
+          "name": "Iowa",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "5f7b81ad-2b58-4b17-9a2b-8b8c4de29ea3",
+          "name": "Sulfur",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "512d0ecb-b5b9-4d7c-9806-2a1f60a54b20",
+          "name": "The Blister Exists",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "b29075f1-351a-48d8-8499-40a65e628612",
+          "name": "(sic)",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "7678d8ee-9e03-4c77-80cb-5e4fa3a701e6",
+          "name": "The Nameless",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        },
+        {
+          "id": "eff37b7e-286c-4e89-93c5-c555aec20183",
+          "name": "Dead Memories",
+          "duration": 3.5,
+          "album": "Iowa",
+          "year": 2001,
+          "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+        }
+      ]
+    },
+    {
+      "id": "28fea9e1-8c85-4f76-a283-f83f542077d1",
+      "name": "Slayer",
+      "image": "https://i.scdn.co/image/643c0c72a9e44c2b65f0b9af158f525d55a15988",
+      "tracks": [
+        {
+          "id": "39562527-831f-4e43-a833-bacd78c74fd3",
+          "name": "Angel Of Death",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        },
+        {
+          "id": "73f2e6d5-5dd7-4803-9807-7c6e79f115bd",
+          "name": "Raining Blood",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        },
+        {
+          "id": "c2303d58-42f6-435c-82da-dbd0a5e17939",
+          "name": "Postmortem",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        },
+        {
+          "id": "c9071e1a-f893-4db0-b083-1dca2d847f59",
+          "name": "Epidemic",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        },
+        {
+          "id": "2ab2568c-f342-41ae-b192-1128df58754d",
+          "name": "Necrophiliac",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        },
+        {
+          "id": "53cf7024-36ef-42d1-8420-b61b5d623737",
+          "name": "Altar Of Sacrifice",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        },
+        {
+          "id": "e90d8050-53a0-4142-908b-aa9ef335c246",
+          "name": "Hallowed Point",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        },
+        {
+          "id": "ba531641-a1db-4a18-bd53-906668a991b0",
+          "name": "Crucifixion",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        },
+        {
+          "id": "74d34225-02d6-4752-8234-88814784cd49",
+          "name": "Chemical Warfare",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        },
+        {
+          "id": "be887b0e-d19d-4f72-bd68-2297f3f4b8cf",
+          "name": "Hell Awaits",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        },
+        {
+          "id": "fd436d7b-a34a-4428-8b43-0d621822916e",
+          "name": "Piece By Piece",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        },
+        {
+          "id": "bb14a3ed-0344-40f3-8fef-1070cf82019d",
+          "name": "South Of Heaven",
+          "duration": 3.5,
+          "album": "Reign In Blood",
+          "year": 1986,
+          "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
+        }
+      ]
+    },
+    {
+      "id": "c42a43a5-e408-41ee-8dc5-9e98197fdf0d",
+      "name": "Messugah",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2198c33d521ca13e0204b789",
+      "tracks": [
+        {
+          "id": "c49e4c4d-a884-4083-9c75-088217a8ea8d",
+          "name": "Bleed",
+          "duration": 3.5,
+          "album": "Obzen",
+          "year": 2007,
+          "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
+        },
+        {
+          "id": "df8c8862-c76f-4eea-950d-72a82c8602bc",
+          "name": "The Violent Sleep Of Reason",
+          "duration": 3.5,
+          "album": "Obzen",
+          "year": 2007,
+          "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
+        },
+        {
+          "id": "58fb84f4-71c0-4563-b644-d645f4ee8dc1",
+          "name": "The Last Vigil",
+          "duration": 3.5,
+          "album": "Obzen",
+          "year": 2007,
+          "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
+        },
+        {
+          "id": "b0ab9470-5ae4-4fbc-b33f-28407419a6a3",
+          "name": "The Ophidian Trek",
+          "duration": 3.5,
+          "album": "Obzen",
+          "year": 2007,
+          "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
+        }
+      ]
+    }
+  ],
+  "playlists": [
+    {
+      "id": "f0452c8b-1f41-4bd1-92e6-320f17eb2007",
+      "name": "Metal",
+      "tracks": [
+        {
+          "artist": {
+            "id": "8a180c69-de9c-416c-a9de-75c1979fc033",
+            "name": "Muse",
+            "image": "http://www.muse.mu/images/muse-logo.png"
+          },
+          "song": {
+            "id": "5290787a-3d66-4b50-aa9d-eeaf5e1eb8ba",
+            "name": "Plug In Baby",
+            "duration": 3.5,
+            "album": "Origin of Symmetry",
+            "year": 2001,
+            "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
+          }
+        },
+        {
+          "artist": {
+            "id": "c42a43a5-e408-41ee-8dc5-9e98197fdf0d",
+            "name": "Messugah",
+            "image": "https://i.scdn.co/image/ab6761610000e5eb2198c33d521ca13e0204b789"
+          },
+          "song": {
+            "id": "c49e4c4d-a884-4083-9c75-088217a8ea8d",
+            "name": "Bleed",
+            "duration": 3.5,
+            "album": "Obzen",
+            "year": 2007,
+            "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e96584df-bc57-4855-acaf-6d1eb9196afd",
+      "name": "P2",
+      "tracks": [
+        {
+          "artist": {
+            "id": "6e57a2ce-1637-414a-90a5-4c402814f5dd",
+            "name": "Slipknot",
+            "image": "https://i.scdn.co/image/ab6761610000e5ebf2b5f2b5f2b5f2b5f2b5f2b5"
+          },
+          "song": {
+            "id": "bb14a3ed-0344-40f3-8fef-1070cf82019d",
+            "name": "The Heretic Anthem",
+            "duration": 3.5,
+            "album": "Iowa",
+            "year": 2008,
+            "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+          }
+        },
+        {
+          "artist": {
+            "id": "c42a43a5-e408-41ee-8dc5-9e98197fdf0d",
+            "name": "Messugah",
+            "image": "https://i.scdn.co/image/ab6761610000e5eb2198c33d521ca13e0204b789"
+          },
+          "song": {
+            "id": "c49e4c4d-a884-4083-9c75-088217a8ea8d",
+            "name": "Bleed",
+            "duration": 3.5,
+            "album": "Obzen",
+            "year": 2007,
+            "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
+          }
+        },
+        {
+          "artist": {
+            "id": "6e57a2ce-1637-414a-90a5-4c402814f5dd",
+            "name": "Slipknot",
+            "image": "https://i.scdn.co/image/ab6761610000e5ebf2b5f2b5f2b5f2b5f2b5f2b5"
+          },
+          "song": {
+            "id": "eff37b7e-286c-4e89-93c5-c555aec20183",
+            "name": "Dead Memories",
+            "duration": 3.5,
+            "album": "Iowa",
+            "year": 2001,
+            "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
+          }
+        },
+        {
+          "artist": {
             "id": "d05ff7c2-c22d-4d04-a125-144a327a6ce3",
             "name": "Gorillaz",
             "image": "https://i.scdn.co/image/ab6761610000e5eb66337ec430a5bd3d1cfe74f5",
             "tracks": [
-                {
-                    "id": "648a883b-a172-4264-8cb7-ad6a6ff16dbc",
-                    "name": "Clint Eastwood",
-                    "duration": 3.5,
-                    "album": "Gorillaz",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
-                },
-                {
-                    "id": "c09bc21b-524b-455a-a539-d7b8b060881f",
-                    "name": "Feel Good Inc.",
-                    "duration": 3.5,
-                    "album": "Gorillaz",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf"
-                },
-                {
-                    "id": "862d6541-f2aa-4de2-9446-5f8e214a34eb",
-                    "name": "19-2000",
-                    "duration": 3.5,
-                    "album": "Gorillaz",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
-                },
-                {
-                    "id": "f4ae6025-5d3a-413d-bad1-676f95c7f397",
-                    "name": "Rock the House",
-                    "duration": 3.5,
-                    "album": "Gorillaz",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
-                },
-                {
-                    "id": "a7b71e78-44c0-431c-a753-39bb8097046d",
-                    "name": "Tomorrow Comes Today",
-                    "duration": 3.5,
-                    "album": "Gorillaz",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
-                },
-                {
-                    "id": "8e0a7ad1-98e0-4161-893a-2e59a96d5331",
-                    "name": "New Genious (Brother)",
-                    "duration": 3.5,
-                    "album": "Gorillaz",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
-                },
-                {
-                    "id": "f3e75a5c-a80a-4c33-9eb0-0407e828bccc",
-                    "name": "Sound Check (Gravity)",
-                    "duration": 3.5,
-                    "album": "Gorillaz",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
-                },
-                {
-                    "id": "41da6c15-459d-42de-958a-a3e2d5e2ea12",
-                    "name": "Double Bass",
-                    "duration": 3.5,
-                    "album": "Gorillaz",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
-                },
-                {
-                    "id": "86290b28-4559-461f-aada-84b3c5605a1f",
-                    "name": "Rock the House",
-                    "duration": 3.5,
-                    "album": "Gorillaz",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
-                }
+              {
+                "id": "648a883b-a172-4264-8cb7-ad6a6ff16dbc",
+                "name": "Clint Eastwood",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "c09bc21b-524b-455a-a539-d7b8b060881f",
+                "name": "Feel Good Inc.",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf"
+              },
+              {
+                "id": "862d6541-f2aa-4de2-9446-5f8e214a34eb",
+                "name": "19-2000",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "f4ae6025-5d3a-413d-bad1-676f95c7f397",
+                "name": "Rock the House",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "a7b71e78-44c0-431c-a753-39bb8097046d",
+                "name": "Tomorrow Comes Today",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "8e0a7ad1-98e0-4161-893a-2e59a96d5331",
+                "name": "New Genious (Brother)",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "f3e75a5c-a80a-4c33-9eb0-0407e828bccc",
+                "name": "Sound Check (Gravity)",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "41da6c15-459d-42de-958a-a3e2d5e2ea12",
+                "name": "Double Bass",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "86290b28-4559-461f-aada-84b3c5605a1f",
+                "name": "Rock the House",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              }
             ]
+          },
+          "song": {
+            "id": "648a883b-a172-4264-8cb7-ad6a6ff16dbc",
+            "name": "Clint Eastwood",
+            "duration": 3.5,
+            "album": "Gorillaz",
+            "year": 2001,
+            "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b",
+            "isPopupVisible": true
+          }
         },
         {
-            "id": "8a180c69-de9c-416c-a9de-75c1979fc033",
-            "name": "Muse",
-            "image": "https://i.scdn.co/image/ab6761610000e5eb0accbbe13e1aa147dd27671c",
+          "artist": {
+            "id": "d05ff7c2-c22d-4d04-a125-144a327a6ce3",
+            "name": "Gorillaz",
+            "image": "https://i.scdn.co/image/ab6761610000e5eb66337ec430a5bd3d1cfe74f5",
             "tracks": [
-                {
-                    "id": "5290787a-3d66-4b50-aa9d-eeaf5e1eb8ba",
-                    "name": "Plug In Baby",
-                    "duration": 3.5,
-                    "album": "Origin of Symmetry",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
-                },
-                {
-                    "id": "d36d3acc-9dd2-4973-93d4-f37bcd6c7c11",
-                    "name": "Citizen Erased",
-                    "duration": 3.5,
-                    "album": "Origin of Symmetry",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
-                },
-                {
-                    "id": "f387cd66-9133-4ab2-a95a-a9c30be97ca6",
-                    "name": "Micro Cuts",
-                    "duration": 3.5,
-                    "album": "Origin of Symmetry",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
-                },
-                {
-                    "id": "392c3f72-1296-4218-9cd1-bdadc51513cb",
-                    "name": "Screenager",
-                    "duration": 3.5,
-                    "album": "Origin of Symmetry",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
-                },
-                {
-                    "id": "02b3e886-ecee-42e1-b651-3a39d0ad0f90",
-                    "name": "Darkshines",
-                    "duration": 3.5,
-                    "album": "Origin of Symmetry",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
-                },
-                {
-                    "id": "d46ced89-d07a-49b5-b0ed-6b140e58c394",
-                    "name": "Feeling Good",
-                    "duration": 3.5,
-                    "album": "Origin of Symmetry",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
-                },
-                {
-                    "id": "05c9ae9c-6abe-4887-b6c6-7a8117151d59",
-                    "name": "New Born",
-                    "duration": 3.5,
-                    "album": "Origin of Symmetry",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
-                },
-                {
-                    "id": "7db89d38-9b55-4e1c-a6ce-108d69778309",
-                    "name": "Bliss",
-                    "duration": 3.5,
-                    "album": "Origin of Symmetry",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
-                },
-                {
-                    "id": "730849fd-488b-4e1f-9b54-ccc96e77acb6",
-                    "name": "Space Dementia",
-                    "duration": 3.5,
-                    "album": "Origin of Symmetry",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
-                },
-                {
-                    "id": "78ed1212-6ba4-4310-b164-dd8ff8215ce4",
-                    "name": "Hyper Music",
-                    "duration": 3.5,
-                    "album": "Origin of Symmetry",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
-                }
+              {
+                "id": "648a883b-a172-4264-8cb7-ad6a6ff16dbc",
+                "name": "Clint Eastwood",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "c09bc21b-524b-455a-a539-d7b8b060881f",
+                "name": "Feel Good Inc.",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf"
+              },
+              {
+                "id": "862d6541-f2aa-4de2-9446-5f8e214a34eb",
+                "name": "19-2000",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "f4ae6025-5d3a-413d-bad1-676f95c7f397",
+                "name": "Rock the House",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "a7b71e78-44c0-431c-a753-39bb8097046d",
+                "name": "Tomorrow Comes Today",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "8e0a7ad1-98e0-4161-893a-2e59a96d5331",
+                "name": "New Genious (Brother)",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "f3e75a5c-a80a-4c33-9eb0-0407e828bccc",
+                "name": "Sound Check (Gravity)",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "41da6c15-459d-42de-958a-a3e2d5e2ea12",
+                "name": "Double Bass",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "86290b28-4559-461f-aada-84b3c5605a1f",
+                "name": "Rock the House",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              }
             ]
+          },
+          "song": {
+            "id": "648a883b-a172-4264-8cb7-ad6a6ff16dbc",
+            "name": "Clint Eastwood",
+            "duration": 3.5,
+            "album": "Gorillaz",
+            "year": 2001,
+            "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b",
+            "isPopupVisible": true
+          }
         },
         {
-            "id": "58cbe12b-4fbb-456c-a1e6-54f526875d4c",
-            "name": "The Beatles",
-            "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+          "artist": {
+            "id": "d05ff7c2-c22d-4d04-a125-144a327a6ce3",
+            "name": "Gorillaz",
+            "image": "https://i.scdn.co/image/ab6761610000e5eb66337ec430a5bd3d1cfe74f5",
             "tracks": [
-                {
-                    "id": "c16a2865-f084-41cc-a865-e134a77a11ac",
-                    "name": "A Hard Day's Night",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                },
-                {
-                    "id": "4ce86c4c-40cb-4d57-8ad5-604106c762f1",
-                    "name": "I Should Have Known Better",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                },
-                {
-                    "id": "b990abc9-467c-4823-b393-406660c7f6bd",
-                    "name": "If I Fell",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                },
-                {
-                    "id": "1e035a53-8ee0-4d40-9bda-e43d93f0d258",
-                    "name": "I'm Happy Just to Dance with You",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                },
-                {
-                    "id": "5d7cf479-388b-439f-9f55-9acf08763f98",
-                    "name": "And I Love Her",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                },
-                {
-                    "id": "beac1a4a-81ef-4cde-8114-b24b7d783f6a",
-                    "name": "Tell Me Why",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                },
-                {
-                    "id": "a09ed6fb-bd0d-40d4-a35c-02b8f43adf32",
-                    "name": "Can't Buy Me Love",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                },
-                {
-                    "id": "ca40cf37-0b67-4c13-a4cb-769ee2bfb0e0",
-                    "name": "Any Time at All",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                },
-                {
-                    "id": "580b5793-0576-4ca7-bee6-887dfb80c2b4",
-                    "name": "I'll Cry Instead",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                },
-                {
-                    "id": "7714ee3f-8a50-4ca3-8719-84347312dbcf",
-                    "name": "Things We Said Today",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                },
-                {
-                    "id": "f7e032fc-9fd5-4db7-b788-96ba2dae26d4",
-                    "name": "When I Get Home",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                },
-                {
-                    "id": "84da508d-fd9e-48d9-b6d9-4a87e5176de7",
-                    "name": "You Can't Do That",
-                    "duration": 3.5,
-                    "album": "A Hard Day's Night",
-                    "year": 1964,
-                    "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
-                }
+              {
+                "id": "648a883b-a172-4264-8cb7-ad6a6ff16dbc",
+                "name": "Clint Eastwood",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "c09bc21b-524b-455a-a539-d7b8b060881f",
+                "name": "Feel Good Inc.",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf"
+              },
+              {
+                "id": "862d6541-f2aa-4de2-9446-5f8e214a34eb",
+                "name": "19-2000",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "f4ae6025-5d3a-413d-bad1-676f95c7f397",
+                "name": "Rock the House",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "a7b71e78-44c0-431c-a753-39bb8097046d",
+                "name": "Tomorrow Comes Today",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "f3e75a5c-a80a-4c33-9eb0-0407e828bccc",
+                "name": "Sound Check (Gravity)",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "41da6c15-459d-42de-958a-a3e2d5e2ea12",
+                "name": "Double Bass",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              },
+              {
+                "id": "86290b28-4559-461f-aada-84b3c5605a1f",
+                "name": "Rock the House",
+                "duration": 3.5,
+                "album": "Gorillaz",
+                "year": 2001,
+                "image": "https://i.scdn.co/image/ab67616d0000b273c73a7bb15f43bae86215934b"
+              }
             ]
+          },
+          "song": {
+            "id": "c09bc21b-524b-455a-a539-d7b8b060881f",
+            "name": "Feel Good Inc.",
+            "duration": 3.5,
+            "album": "Gorillaz",
+            "year": 2001,
+            "image": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
+            "isPopupVisible": true
+          }
         },
         {
-            "id": "7ead9ae9-ea6e-4985-b822-58cfadc2fc55",
-            "name": "Pantera",
-            "image": "https://i.scdn.co/image/ab67616d00001e02351e5afce42349a9550050de",
-            "tracks": [
-                {
-                    "id": "45c31699-0eaf-457e-98af-bf35f94b8857",
-                    "name": "Cowboys From Hell",
-                    "duration": 3.5,
-                    "album": "Cowboys From Hell",
-                    "year": 1990,
-                    "image": "https://i.scdn.co/image/ab67616d0000b2730ce52f4ba340a1e459e6a978"
-                },
-                {
-                    "id": "4988f721-0d53-484b-abf5-38b7abc432e7",
-                    "name": "Psycho Holiday",
-                    "duration": 3.5,
-                    "album": "Cowboys From Hell",
-                    "year": 1990,
-                    "image": "https://i.scdn.co/image/ab67616d0000b2730ce52f4ba340a1e459e6a978"
-                },
-                {
-                    "id": "15760d67-10e3-45de-a447-011a13ff3691",
-                    "name": "Primal Concrete Sledge",
-                    "duration": 3.5,
-                    "album": "Cowboys From Hell",
-                    "year": 1990,
-                    "image": "https://i.scdn.co/image/ab67616d0000b2730ce52f4ba340a1e459e6a978"
-                },
-                {
-                    "id": "71dada5e-c1f1-4cc0-8b2b-f5f31e2706ce",
-                    "name": "Heresy",
-                    "duration": 3.5,
-                    "album": "Cowboys From Hell",
-                    "year": 1990,
-                    "image": "https://i.scdn.co/image/ab67616d0000b2730ce52f4ba340a1e459e6a978"
-                }
-            ]
-        },
-        {
+          "artist": {
             "id": "3e930381-b6f3-4b07-a9e2-98caed6ab16c",
             "name": "Metallica",
             "image": "https://i.scdn.co/image/ab6761610000e5eb69ca98dd3083f1082d740e44",
             "tracks": [
-                {
-                    "id": "50b22e85-c5b3-41fb-a576-7474021f3d59",
-                    "name": "Enter Sandman",
-                    "duration": 3.5,
-                    "album": "Metallica",
-                    "year": 1991,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
-                },
-                {
-                    "id": "205b4b97-ceaa-4dde-aa32-93ef0e9bef71",
-                    "name": "Sad But True",
-                    "duration": 3.5,
-                    "album": "Metallica",
-                    "year": 1991,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
-                },
-                {
-                    "id": "fd58c211-c4c1-4630-815d-5014a2c61985",
-                    "name": "Holier Than Thou",
-                    "duration": 3.5,
-                    "album": "Metallica",
-                    "year": 1991,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
-                },
-                {
-                    "id": "7a3284ca-4512-4571-b421-51e5984ad0e3",
-                    "name": "The Unforgiven",
-                    "duration": 3.5,
-                    "album": "Metallica",
-                    "year": 1991,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
-                },
-                {
-                    "id": "a1ec5c8e-9edb-4447-8083-f456103e271f",
-                    "name": "Wherever I May Roam",
-                    "duration": 3.5,
-                    "album": "Metallica",
-                    "year": 1991,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
-                },
-                {
-                    "id": "0a785c22-aeb2-40a9-acdc-9ac2b2f15b7c",
-                    "name": "Don't Tread On Me",
-                    "duration": 3.5,
-                    "album": "Metallica",
-                    "year": 1991,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
-                },
-                {
-                    "id": "7e509ab2-7ebe-4cd2-a029-6aeef4ef9df0",
-                    "name": "Through The Never",
-                    "duration": 3.5,
-                    "album": "Metallica",
-                    "year": 1991,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
-                },
-                {
-                    "id": "51df7ef1-01ce-43ac-8886-3b4e538bd5f2",
-                    "name": "Nothing Else Matters",
-                    "duration": 3.5,
-                    "album": "Metallica",
-                    "year": 1991,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
-                }
+              {
+                "id": "50b22e85-c5b3-41fb-a576-7474021f3d59",
+                "name": "Enter Sandman",
+                "duration": 3.5,
+                "album": "Metallica",
+                "year": 1991,
+                "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+              },
+              {
+                "id": "205b4b97-ceaa-4dde-aa32-93ef0e9bef71",
+                "name": "Sad But True",
+                "duration": 3.5,
+                "album": "Metallica",
+                "year": 1991,
+                "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+              },
+              {
+                "id": "fd58c211-c4c1-4630-815d-5014a2c61985",
+                "name": "Holier Than Thou",
+                "duration": 3.5,
+                "album": "Metallica",
+                "year": 1991,
+                "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+              },
+              {
+                "id": "7a3284ca-4512-4571-b421-51e5984ad0e3",
+                "name": "The Unforgiven",
+                "duration": 3.5,
+                "album": "Metallica",
+                "year": 1991,
+                "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+              },
+              {
+                "id": "a1ec5c8e-9edb-4447-8083-f456103e271f",
+                "name": "Wherever I May Roam",
+                "duration": 3.5,
+                "album": "Metallica",
+                "year": 1991,
+                "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+              },
+              {
+                "id": "0a785c22-aeb2-40a9-acdc-9ac2b2f15b7c",
+                "name": "Don't Tread On Me",
+                "duration": 3.5,
+                "album": "Metallica",
+                "year": 1991,
+                "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+              },
+              {
+                "id": "7e509ab2-7ebe-4cd2-a029-6aeef4ef9df0",
+                "name": "Through The Never",
+                "duration": 3.5,
+                "album": "Metallica",
+                "year": 1991,
+                "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+              },
+              {
+                "id": "51df7ef1-01ce-43ac-8886-3b4e538bd5f2",
+                "name": "Nothing Else Matters",
+                "duration": 3.5,
+                "album": "Metallica",
+                "year": 1991,
+                "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539"
+              }
             ]
+          },
+          "song": {
+            "id": "50b22e85-c5b3-41fb-a576-7474021f3d59",
+            "name": "Enter Sandman",
+            "duration": 3.5,
+            "album": "Metallica",
+            "year": 1991,
+            "image": "https://i.scdn.co/image/ab67616d0000b27367d9b2c8c6a0f768a916f539",
+            "isPopupVisible": true
+          }
         },
         {
-            "id": "fdf22b2d-903f-44ed-b1b9-139fda96359a",
-            "name": "Bring me the horizon",
-            "image": "https://i.scdn.co/image/ab6761610000e5eb001ae3b1275c9ec37a4c550b",
+          "artist": {
+            "id": "58cbe12b-4fbb-456c-a1e6-54f526875d4c",
+            "name": "The Beatles",
+            "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
             "tracks": [
-                {
-                    "id": "bb571525-f2a3-424c-b94b-a35ed1b0132f",
-                    "name": "Throne",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "98a97f31-05da-4936-b2b5-437395f3b140",
-                    "name": "Drown",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "c126803a-72ad-45ea-b9fb-927421243af3",
-                    "name": "Happy Song",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "66b97261-9418-4277-9e8d-3f5cca39c13a",
-                    "name": "Antivist",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "caa3402e-454d-44f2-bb95-4ad2ebe712e0",
-                    "name": "Follow You",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "3f5ba321-c85e-48e0-ab68-ac05f1fae4b4",
-                    "name": "Hospital For Souls",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "722150fd-3819-4be6-b212-2c26b26b7dbd",
-                    "name": "Nihilist Blues",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "e74a8023-080e-4665-a409-40f9a55389d1",
-                    "name": "Shadow Moses",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "c68ab2a8-6dfe-49bb-baca-7b02880a54cf",
-                    "name": "True Friends",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "7fe00057-4fb8-4a37-9944-9c2b96eccb9b",
-                    "name": "Can You Feel My Heart",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "bc2cf347-0d7b-4035-a63a-15a5458a57da",
-                    "name": "Sleepwalking",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "504aa9f5-39a9-4653-8d78-dc24c0e855ea",
-                    "name": "Don't Go",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "bdb544f9-a886-492d-9564-cf7a4ad10f88",
-                    "name": "The House Of Wolves",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                },
-                {
-                    "id": "4ab585a3-9001-4f67-8d61-c1873ed11545",
-                    "name": "Chelsea Smile",
-                    "duration": 3.5,
-                    "album": "Sempiternal",
-                    "year": 2013,
-                    "image": "https://i.scdn.co/image/ab67616d00001e0260cf7c8dd93815ccd6cb4830"
-                }
+              {
+                "id": "c16a2865-f084-41cc-a865-e134a77a11ac",
+                "name": "A Hard Day's Night",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "4ce86c4c-40cb-4d57-8ad5-604106c762f1",
+                "name": "I Should Have Known Better",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "b990abc9-467c-4823-b393-406660c7f6bd",
+                "name": "If I Fell",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "1e035a53-8ee0-4d40-9bda-e43d93f0d258",
+                "name": "I'm Happy Just to Dance with You",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "5d7cf479-388b-439f-9f55-9acf08763f98",
+                "name": "And I Love Her",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "beac1a4a-81ef-4cde-8114-b24b7d783f6a",
+                "name": "Tell Me Why",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "a09ed6fb-bd0d-40d4-a35c-02b8f43adf32",
+                "name": "Can't Buy Me Love",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "ca40cf37-0b67-4c13-a4cb-769ee2bfb0e0",
+                "name": "Any Time at All",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "580b5793-0576-4ca7-bee6-887dfb80c2b4",
+                "name": "I'll Cry Instead",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "7714ee3f-8a50-4ca3-8719-84347312dbcf",
+                "name": "Things We Said Today",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "f7e032fc-9fd5-4db7-b788-96ba2dae26d4",
+                "name": "When I Get Home",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "84da508d-fd9e-48d9-b6d9-4a87e5176de7",
+                "name": "You Can't Do That",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              }
             ]
+          },
+          "song": {
+            "id": "c16a2865-f084-41cc-a865-e134a77a11ac",
+            "name": "A Hard Day's Night",
+            "duration": 3.5,
+            "album": "A Hard Day's Night",
+            "year": 1964,
+            "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd",
+            "isPopupVisible": true
+          }
         },
         {
-            "id": "6e57a2ce-1637-414a-90a5-4c402814f5dd",
-            "name": "Slipknot",
-            "image": "https://i.scdn.co/image/ab6761610000e5ebec01c52d6030a1574070e308",
+          "artist": {
+            "id": "58cbe12b-4fbb-456c-a1e6-54f526875d4c",
+            "name": "The Beatles",
+            "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
             "tracks": [
-                {
-                    "id": "05feebb7-5ddd-404b-a2b0-47e4066efb84",
-                    "name": "The Heretic Anthem",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "3d87866c-f202-4c9f-943e-468c36854880",
-                    "name": "People = Shit",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "a6e4725b-5c18-4173-a42a-91636dbfe92b",
-                    "name": "Disasterpiece",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "f5d59848-7f32-4a24-b1b9-aa6ea48d2bc9",
-                    "name": "Gently",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "730462fc-87a9-4f1e-a220-bbf86185f97b",
-                    "name": "My Plague",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "fa8947c0-c98c-471f-8d5e-9d64b8496c6f",
-                    "name": "Purity",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "9ba400c2-4d96-4619-ae0f-7e69de9899f9",
-                    "name": "The Shape",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "a75f712c-95a6-40fb-8633-fa3976d6d6a4",
-                    "name": "Wait And Bleed",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "1d3b5c44-cb85-43fa-9f12-ef171e6acea0",
-                    "name": "Everything Ends",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "9a761098-3e2c-486a-b9ac-fb12d02239dd",
-                    "name": "Left Behind",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "0f666e9f-b635-40bb-a528-fa9af8bc36c4",
-                    "name": "Skin Ticket",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "d0167272-e1c8-4de6-8f72-6653e79843c1",
-                    "name": "Iowa",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "5f7b81ad-2b58-4b17-9a2b-8b8c4de29ea3",
-                    "name": "Sulfur",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "512d0ecb-b5b9-4d7c-9806-2a1f60a54b20",
-                    "name": "The Blister Exists",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "b29075f1-351a-48d8-8499-40a65e628612",
-                    "name": "(sic)",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "7678d8ee-9e03-4c77-80cb-5e4fa3a701e6",
-                    "name": "The Nameless",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                },
-                {
-                    "id": "eff37b7e-286c-4e89-93c5-c555aec20183",
-                    "name": "Dead Memories",
-                    "duration": 3.5,
-                    "album": "Iowa",
-                    "year": 2001,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                }
+              {
+                "id": "c16a2865-f084-41cc-a865-e134a77a11ac",
+                "name": "A Hard Day's Night",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "4ce86c4c-40cb-4d57-8ad5-604106c762f1",
+                "name": "I Should Have Known Better",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "b990abc9-467c-4823-b393-406660c7f6bd",
+                "name": "If I Fell",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "1e035a53-8ee0-4d40-9bda-e43d93f0d258",
+                "name": "I'm Happy Just to Dance with You",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "5d7cf479-388b-439f-9f55-9acf08763f98",
+                "name": "And I Love Her",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "beac1a4a-81ef-4cde-8114-b24b7d783f6a",
+                "name": "Tell Me Why",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "a09ed6fb-bd0d-40d4-a35c-02b8f43adf32",
+                "name": "Can't Buy Me Love",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "ca40cf37-0b67-4c13-a4cb-769ee2bfb0e0",
+                "name": "Any Time at All",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "580b5793-0576-4ca7-bee6-887dfb80c2b4",
+                "name": "I'll Cry Instead",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "7714ee3f-8a50-4ca3-8719-84347312dbcf",
+                "name": "Things We Said Today",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "f7e032fc-9fd5-4db7-b788-96ba2dae26d4",
+                "name": "When I Get Home",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "84da508d-fd9e-48d9-b6d9-4a87e5176de7",
+                "name": "You Can't Do That",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              }
             ]
+          },
+          "song": {
+            "id": "4ce86c4c-40cb-4d57-8ad5-604106c762f1",
+            "name": "I Should Have Known Better",
+            "duration": 3.5,
+            "album": "A Hard Day's Night",
+            "year": 1964,
+            "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd",
+            "isPopupVisible": true
+          }
         },
         {
-            "id": "28fea9e1-8c85-4f76-a283-f83f542077d1",
-            "name": "Slayer",
-            "image": "https://i.scdn.co/image/643c0c72a9e44c2b65f0b9af158f525d55a15988",
+          "artist": {
+            "id": "58cbe12b-4fbb-456c-a1e6-54f526875d4c",
+            "name": "The Beatles",
+            "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
             "tracks": [
-                {
-                    "id": "39562527-831f-4e43-a833-bacd78c74fd3",
-                    "name": "Angel Of Death",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                },
-                {
-                    "id": "73f2e6d5-5dd7-4803-9807-7c6e79f115bd",
-                    "name": "Raining Blood",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                },
-                {
-                    "id": "c2303d58-42f6-435c-82da-dbd0a5e17939",
-                    "name": "Postmortem",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                },
-                {
-                    "id": "c9071e1a-f893-4db0-b083-1dca2d847f59",
-                    "name": "Epidemic",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                },
-                {
-                    "id": "2ab2568c-f342-41ae-b192-1128df58754d",
-                    "name": "Necrophiliac",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                },
-                {
-                    "id": "53cf7024-36ef-42d1-8420-b61b5d623737",
-                    "name": "Altar Of Sacrifice",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                },
-                {
-                    "id": "e90d8050-53a0-4142-908b-aa9ef335c246",
-                    "name": "Hallowed Point",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                },
-                {
-                    "id": "ba531641-a1db-4a18-bd53-906668a991b0",
-                    "name": "Crucifixion",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                },
-                {
-                    "id": "74d34225-02d6-4752-8234-88814784cd49",
-                    "name": "Chemical Warfare",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                },
-                {
-                    "id": "be887b0e-d19d-4f72-bd68-2297f3f4b8cf",
-                    "name": "Hell Awaits",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                },
-                {
-                    "id": "fd436d7b-a34a-4428-8b43-0d621822916e",
-                    "name": "Piece By Piece",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                },
-                {
-                    "id": "bb14a3ed-0344-40f3-8fef-1070cf82019d",
-                    "name": "South Of Heaven",
-                    "duration": 3.5,
-                    "album": "Reign In Blood",
-                    "year": 1986,
-                    "image": "https://i.scdn.co/image/ab67616d0000b27378294b342cf173e8a50251d9"
-                }
+              {
+                "id": "c16a2865-f084-41cc-a865-e134a77a11ac",
+                "name": "A Hard Day's Night",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "4ce86c4c-40cb-4d57-8ad5-604106c762f1",
+                "name": "I Should Have Known Better",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "b990abc9-467c-4823-b393-406660c7f6bd",
+                "name": "If I Fell",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "1e035a53-8ee0-4d40-9bda-e43d93f0d258",
+                "name": "I'm Happy Just to Dance with You",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "5d7cf479-388b-439f-9f55-9acf08763f98",
+                "name": "And I Love Her",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "beac1a4a-81ef-4cde-8114-b24b7d783f6a",
+                "name": "Tell Me Why",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "a09ed6fb-bd0d-40d4-a35c-02b8f43adf32",
+                "name": "Can't Buy Me Love",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "ca40cf37-0b67-4c13-a4cb-769ee2bfb0e0",
+                "name": "Any Time at All",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "580b5793-0576-4ca7-bee6-887dfb80c2b4",
+                "name": "I'll Cry Instead",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "7714ee3f-8a50-4ca3-8719-84347312dbcf",
+                "name": "Things We Said Today",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "f7e032fc-9fd5-4db7-b788-96ba2dae26d4",
+                "name": "When I Get Home",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              },
+              {
+                "id": "84da508d-fd9e-48d9-b6d9-4a87e5176de7",
+                "name": "You Can't Do That",
+                "duration": 3.5,
+                "album": "A Hard Day's Night",
+                "year": 1964,
+                "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd"
+              }
             ]
-        },
-        {
-            "id": "c42a43a5-e408-41ee-8dc5-9e98197fdf0d",
-            "name": "Messugah",
-            "image": "https://i.scdn.co/image/ab6761610000e5eb2198c33d521ca13e0204b789",
-            "tracks": [
-                {
-                    "id": "c49e4c4d-a884-4083-9c75-088217a8ea8d",
-                    "name": "Bleed",
-                    "duration": 3.5,
-                    "album": "Obzen",
-                    "year": 2007,
-                    "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
-                },
-                {
-                    "id": "df8c8862-c76f-4eea-950d-72a82c8602bc",
-                    "name": "The Violent Sleep Of Reason",
-                    "duration": 3.5,
-                    "album": "Obzen",
-                    "year": 2007,
-                    "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
-                },
-                {
-                    "id": "58fb84f4-71c0-4563-b644-d645f4ee8dc1",
-                    "name": "The Last Vigil",
-                    "duration": 3.5,
-                    "album": "Obzen",
-                    "year": 2007,
-                    "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
-                },
-                {
-                    "id": "b0ab9470-5ae4-4fbc-b33f-28407419a6a3",
-                    "name": "The Ophidian Trek",
-                    "duration": 3.5,
-                    "album": "Obzen",
-                    "year": 2007,
-                    "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
-                }
-            ]
+          },
+          "song": {
+            "id": "1e035a53-8ee0-4d40-9bda-e43d93f0d258",
+            "name": "I'm Happy Just to Dance with You",
+            "duration": 3.5,
+            "album": "A Hard Day's Night",
+            "year": 1964,
+            "image": "https://i.scdn.co/image/ab67616d0000b273e230f303815e82a86713eedd",
+            "isPopupVisible": true
+          }
         }
-    ],
-    "playlists": [
-        {
-            "id": "f0452c8b-1f41-4bd1-92e6-320f17eb2007",
-            "name": "Metal",
-            "tracks": [
-                {
-                    "artist": {
-                        "id": "8a180c69-de9c-416c-a9de-75c1979fc033",
-                        "name": "Muse",
-                        "image": "http://www.muse.mu/images/muse-logo.png"
-                    },
-                    "song": {
-                        "id": "5290787a-3d66-4b50-aa9d-eeaf5e1eb8ba",
-                        "name": "Plug In Baby",
-                        "duration": 3.5,
-                        "album": "Origin of Symmetry",
-                        "year": 2001,
-                        "image": "https://i.scdn.co/image/ab67616d0000b273a9e6856251d6c4b13167924a"
-                    }
-                },
-                {
-                    "artist": {
-                        "id": "c42a43a5-e408-41ee-8dc5-9e98197fdf0d",
-                        "name": "Messugah",
-                        "image": "https://i.scdn.co/image/ab6761610000e5eb2198c33d521ca13e0204b789"
-                    },
-                    "song": {
-                        "id": "c49e4c4d-a884-4083-9c75-088217a8ea8d",
-                        "name": "Bleed",
-                        "duration": 3.5,
-                        "album": "Obzen",
-                        "year": 2007,
-                        "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "e96584df-bc57-4855-acaf-6d1eb9196afd",
-            "name": "P2",
-            "tracks": [
-                {
-                    "artist": {
-                        "id": "6e57a2ce-1637-414a-90a5-4c402814f5dd",
-                        "name": "Slipknot",
-                        "image": "https://i.scdn.co/image/ab6761610000e5ebf2b5f2b5f2b5f2b5f2b5f2b5"
-                    },
-                    "song": {
-                        "id": "bb14a3ed-0344-40f3-8fef-1070cf82019d",
-                        "name": "The Heretic Anthem",
-                        "duration": 3.5,
-                        "album": "Iowa",
-                        "year": 2008,
-                        "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                    }
-                },
-                {
-                    "artist": {
-                        "id": "c42a43a5-e408-41ee-8dc5-9e98197fdf0d",
-                        "name": "Messugah",
-                        "image": "https://i.scdn.co/image/ab6761610000e5eb2198c33d521ca13e0204b789"
-                    },
-                    "song": {
-                        "id": "c49e4c4d-a884-4083-9c75-088217a8ea8d",
-                        "name": "Bleed",
-                        "duration": 3.5,
-                        "album": "Obzen",
-                        "year": 2007,
-                        "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000"
-                    }
-                },
-                {
-                    "artist": {
-                        "id": "6e57a2ce-1637-414a-90a5-4c402814f5dd",
-                        "name": "Slipknot",
-                        "image": "https://i.scdn.co/image/ab6761610000e5ebf2b5f2b5f2b5f2b5f2b5f2b5"
-                    },
-                    "song": {
-                        "id": "eff37b7e-286c-4e89-93c5-c555aec20183",
-                        "name": "Dead Memories",
-                        "duration": 3.5,
-                        "album": "Iowa",
-                        "year": 2001,
-                        "image": "https://i.scdn.co/image/ab67616d0000b27337f7f56faf32a554e29b72ee"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "fc607226-6e93-48fb-86aa-1a9743c0b03b",
-            "name": "Vacía",
-            "tracks": []
-        }
-    ]
+      ]
+    },
+    {
+      "id": "fc607226-6e93-48fb-86aa-1a9743c0b03b",
+      "name": "Vacía",
+      "tracks": []
+    }
+  ]
 }
