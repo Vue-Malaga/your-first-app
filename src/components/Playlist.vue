@@ -94,6 +94,7 @@ li {
 
 li:first-child p {
     font-weight: bold;
+    color: var(--accent-color-1);
 }
 
 li:last-child {
