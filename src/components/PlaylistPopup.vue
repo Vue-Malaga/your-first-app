@@ -1,7 +1,8 @@
 <script setup>
+import { usePlaylistsStore } from '../stores/playlists';
 import { onMounted } from "@vue/runtime-core";
 import { ref } from "vue";
-import { get, put } from "../service/http.service";
+import { put } from "../service/http.service";
 
 const playlists = ref([]);
 const confirmButton = ref(null);
@@ -59,8 +60,7 @@ defineProps({
 const emit = defineEmits(["closePopup", "message"]);
 
 onMounted(async () => {
-    const response = await get("http://localhost:3000/playlists");
-    playlists.value = response;
+    playlists.value = usePlaylistsStore().playlists;
 });
 </script>
 

@@ -10,6 +10,7 @@
 </template>
 
 <script setup>
+import { usePlaylistsStore } from '../stores/playlists';
 import { ref } from 'vue'
 import { post } from '../service/http.service'
 import { v4 as uuidv4 } from 'uuid'
@@ -23,7 +24,13 @@ const createPlaylist = () => {
 
     }
 
-    post('http://localhost:3000/playlists', newPlaylist);
+    post('http://localhost:3000/playlists', newPlaylist)
+        .then(() => {
+            usePlaylistsStore().fetchPlaylists()
+        })
+        .catch(() => {
+            console.log('Ha ocurrido un error')
+        });
 }
 </script>
 

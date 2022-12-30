@@ -1,15 +1,21 @@
 <script setup>
-import { onMounted } from '@vue/runtime-core';
+import { usePlaylistsStore } from '../stores/playlists';
+import { watch, onMounted } from '@vue/runtime-core';
 import { RouterLink } from 'vue-router';
 import { ref } from 'vue';
-import { get } from '../service/http.service';
 
 const playlists = ref([]);
 
-onMounted(async () => {
-    const response = await get('http://localhost:3000/playlists');
-    playlists.value = response;
+onMounted(() => {
+    playlists.value = usePlaylistsStore().fetchPlaylists();
 });
+
+watch(() => usePlaylistsStore().playlists,
+    (newPlaylists) => {
+        playlists.value = newPlaylists;
+    }
+);
+
 </script>
 
 <template>
