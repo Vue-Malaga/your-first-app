@@ -71,13 +71,16 @@ li {
     border-left: 2px solid transparent;
 }
 
-/* :has not working in Firefox */
-li:hover,
-li:has(.active) {
+li:hover {
     cursor: pointer;
     color: var(--text-color-1);
     border-left: var(--main-border);
+}
 
+/* :has not working in Firefox */
+li:has(.active) {
+    color: var(--text-color-1);
+    border-left: var(--main-border);
 }
 
 .new-playlist {
