@@ -1,6 +1,6 @@
 <template>
     <div class="popup">
-        <a class="close-popup" @click="$emit('closePopup')">X</a>
+        <a class="close-popup" @click="emits('closePopup')">X</a>
         <p>
             Elige la Playlist donde quieras guardar la canción
             <strong>{{ track.name }}</strong>
