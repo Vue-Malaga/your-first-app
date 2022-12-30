@@ -1,6 +1,6 @@
 <template>
-    <section>
-        <div class="new-playlist">
+    <main>
+        <section class="new-playlist">
             <h2>Nueva playlist</h2>
             <input
                 type="text"
@@ -10,8 +10,8 @@
                 v-model="name"
             />
             <button type="submit" @click="createPlaylist">Create</button>
-        </div>
-    </section>
+        </section>
+    </main>
     <div class="message" id="message" v-if="isMessageVisible"></div>
 </template>
 
@@ -54,7 +54,7 @@ const popupMessage = (message) => {
 </script>
 
 <style scoped>
-section {
+main {
     grid-area: artists;
     height: 100%;
     width: 90vw;

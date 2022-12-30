@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <main>
         <figure>
             <div class="artist-image">
                 <img :src="artist.image" :alt="artist.name" />
@@ -14,7 +14,7 @@
                 </p>
             </figcaption>
         </figure>
-        <div class="tracks">
+        <section class="tracks">
             <div class="track">
                 <h3><strong>Añadir</strong></h3>
                 <h3>-</h3>
@@ -38,8 +38,8 @@
                 <p>{{ track.album }}</p>
                 <p>{{ track.year }}</p>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <div class="message" id="message" v-if="isMessageVisible"></div>
 </template>
 
@@ -113,7 +113,7 @@ watch(() => props.id, async () => {
 </script>
 
 <style scoped>
-section {
+main {
     overflow-y: auto;
     grid-area: artists;
     padding: 1rem;

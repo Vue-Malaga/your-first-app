@@ -1,14 +1,14 @@
 <template>
-    <section>
-        <div class="search-box">
+    <main>
+        <section class="search-box">
             <i class="fa-solid fa-magnifying-glass"></i>
             <input
                 type="text"
                 placeholder="Busca tu artista favorito.."
                 v-model="artistSearched"
             />
-        </div>
-        <div class="artists">
+        </section>
+        <section class="artists">
             <RouterLink
                 v-for="artist in filterArtist()"
                 :key="artist.id"
@@ -16,8 +16,8 @@
             >
                 <Artists :artist="artist" />
             </RouterLink>
-        </div>
-    </section>
+        </section>
+    </main>
 </template>
 
 <script setup>
@@ -42,7 +42,7 @@ onMounted(async () => {
 </script>
 
 <style scoped>
-section {
+main {
     width: 100%;
     padding: 1rem;
     display: flex;
