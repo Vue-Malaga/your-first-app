@@ -71,6 +71,7 @@ h2 {
     border-left: 2px solid black;
     font-size: 2rem;
     font-weight: bold;
+    z-index: 1;
 }
 
 ul, h4 {
@@ -93,6 +94,11 @@ li {
 
 li:first-child p {
     font-weight: bold;
+}
+
+li:last-child {
+    border-bottom: none;
+    margin-bottom: 2rem;
 }
 
 img {
