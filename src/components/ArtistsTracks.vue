@@ -38,18 +38,18 @@ import { ref, watch, onMounted, computed, nextTick } from 'vue';
 import { getById } from '../service/http.service';
 import PlaylistPopup from './PlaylistPopup.vue';
 
-const artist = ref({});
-const tracks = ref([]);
-const totalTime = ref(0);
-const totalTracks = ref(0);
-const isMessageVisible = ref(false);
-
 const props = defineProps({
     id: {
         type: String,
         required: true
     }
 });
+
+const artist = ref({});
+const tracks = ref([]);
+const totalTime = ref(0);
+const totalTracks = ref(0);
+const isMessageVisible = ref(false);
 
 const showPopup = (id) => {
     tracks.value.find(track => track.id === id).isPopupVisible = true;

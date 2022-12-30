@@ -28,16 +28,16 @@
 import { ref, watch, onMounted } from 'vue';
 import { getById } from '../service/http.service';
 
-const playlist = ref({});
-
-const isEmpty = ref(() => playlist.value.tracks.length === 0);
-
 const props = defineProps({
     id: {
         type: String,
         required: true
     }
 });
+
+const playlist = ref({});
+
+const isEmpty = ref(() => playlist.value.tracks.length === 0);
 
 onMounted(async () => {
     playlist.value = await getById(`http://localhost:3000/playlists`, props.id);

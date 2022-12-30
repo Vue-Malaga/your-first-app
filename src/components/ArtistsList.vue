@@ -22,14 +22,14 @@ import { get } from '../service/http.service';
 const artists = ref([]);
 const artistSearched = ref('');
 
+const filterArtist = () => {
+    return artists.value.filter(({ name }) => name.toLowerCase().includes(artistSearched.value.toLowerCase()));
+};
+
 onMounted(async () => {
     const response = await get('http://localhost:3000/artists');
     artists.value = response;
 });
-
-const filterArtist = () => {
-    return artists.value.filter(({ name }) => name.toLowerCase().includes(artistSearched.value.toLowerCase()));
-};
 </script>
 
 <style scoped>

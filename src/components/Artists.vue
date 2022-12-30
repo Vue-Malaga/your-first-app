@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-defineProps({
+const props = defineProps({
     artist: {
         type: Object,
         required: true

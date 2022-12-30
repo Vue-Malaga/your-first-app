@@ -25,6 +25,19 @@ import { ref, onMounted } from "vue";
 import { usePlaylistsStore } from '../stores/playlists';
 import { put } from "../service/http.service";
 
+const props = defineProps({
+    track: {
+        type: Object,
+        required: true,
+    },
+    artist: {
+        type: Object,
+        required: true,
+    },
+});
+
+const emits = defineEmits(["closePopup", "message"]);
+
 const playlists = ref([]);
 const confirmButton = ref(null);
 
@@ -40,8 +53,8 @@ const select = (id) => {
 const insertTrack = (artist, song) => {
     const selected = document.querySelector(".selected");
     if (!selected) {
-        emit("message", "No se ha seleccionado ninguna playlist");
-        emit("closePopup");
+        emits("message", "No se ha seleccionado ninguna playlist");
+        emits("closePopup");
         return;
     }
 
@@ -49,8 +62,8 @@ const insertTrack = (artist, song) => {
     const playlist = playlists.value.find((playlist) => playlist.id === playlistId);
 
     if (playlist.tracks.find((track) => track.song.id === song.id)) {
-        emit("message", "La canción ya está en la playlist");
-        emit("closePopup");
+        emits("message", "La canción ya está en la playlist");
+        emits("closePopup");
         return;
     }
 
@@ -58,27 +71,14 @@ const insertTrack = (artist, song) => {
 
     put(`http://localhost:3000/playlists/${playlist.id}`, playlist)
         .then(() => {
-            emit("message", "Canción añadida a la playlist");
-            emit("closePopup");
+            emits("message", "Canción añadida a la playlist");
+            emits("closePopup");
         })
         .catch(() => {
-            emit("message", "Ha ocurrido un error");
-            emit("closePopup");
+            emits("message", "Ha ocurrido un error");
+            emits("closePopup");
         });
 };
-
-defineProps({
-    track: {
-        type: Object,
-        required: true,
-    },
-    artist: {
-        type: Object,
-        required: true,
-    },
-});
-
-const emit = defineEmits(["closePopup", "message"]);
 
 onMounted(async () => {
     playlists.value = usePlaylistsStore().playlists;
