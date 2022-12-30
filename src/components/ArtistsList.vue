@@ -1,3 +1,18 @@
+<template>
+    <section>
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Busca tu artista favorito.." v-model="artistSearched" />
+        </div>
+        <div class="artists">
+            <RouterLink v-for="artist in filterArtist('')" :key="artist.id"
+                :to="{ name: 'artist', params: { id: artist.id } }">
+                <Artists :artist="artist" />
+            </RouterLink>
+        </div>
+    </section>
+</template>
+
 <script setup>
 import Artists from './Artists.vue';
 import { computed, onMounted } from '@vue/runtime-core';
@@ -17,21 +32,6 @@ const filterArtist = (artist) => {
     return artists.value.filter(({ name }) => name.toLowerCase().includes(artistSearched.value.toLowerCase()));
 };
 </script>
-
-<template>
-    <section>
-        <div class="search-box">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Busca tu artista favorito.." v-model="artistSearched" />
-        </div>
-        <div class="artists">
-            <RouterLink v-for="artist in filterArtist('')" :key="artist.id"
-                :to="{ name: 'artist', params: { id: artist.id } }">
-                <Artists :artist="artist" />
-            </RouterLink>
-        </div>
-    </section>
-</template>
 
 <style scoped>
 section {

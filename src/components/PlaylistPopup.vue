@@ -1,3 +1,25 @@
+<template>
+    <div class="popup">
+        <a class="close-popup" @click="$emit('closePopup')">X</a>
+        <p>
+            Elige la Playlist donde quieras guardar la canción
+            <strong>{{ track.name }}</strong>
+        </p>
+        <ul>
+            <li
+                v-for="playlist in playlists"
+                :key="playlist.id"
+                @click="select(playlist.id)"
+                :data-id="playlist.id"
+            >
+                {{ playlist.name }}
+            </li>
+        </ul>
+        <a class="confirm disabled" ref="confirmButton" @click="insertTrack(artist, track)">Confirmar</a>
+    </div>
+    <div class="overlay-back"></div>
+</template>
+
 <script setup>
 import { usePlaylistsStore } from '../stores/playlists';
 import { onMounted } from "@vue/runtime-core";
@@ -63,28 +85,6 @@ onMounted(async () => {
     playlists.value = usePlaylistsStore().playlists;
 });
 </script>
-
-<template>
-    <div class="popup">
-        <a class="close-popup" @click="$emit('closePopup')">X</a>
-        <p>
-            Elige la Playlist donde quieras guardar la canción
-            <strong>{{ track.name }}</strong>
-        </p>
-        <ul>
-            <li
-                v-for="playlist in playlists"
-                :key="playlist.id"
-                @click="select(playlist.id)"
-                :data-id="playlist.id"
-            >
-                {{ playlist.name }}
-            </li>
-        </ul>
-        <a class="confirm disabled" ref="confirmButton" @click="insertTrack(artist, track)">Confirmar</a>
-    </div>
-    <div class="overlay-back"></div>
-</template>
 
 <style scoped>
 strong {

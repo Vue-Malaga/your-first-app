@@ -1,3 +1,38 @@
+<template>
+    <section>
+        <figure>
+            <div class="artist-image">
+                <img :src="artist.image" :alt="artist.name">
+            </div>
+            <figcaption>
+                <h3>{{ artist.name }}</h3>
+                <p><strong>{{ totalTracks }}</strong> canciones disponibles</p>
+                <p>Horas de musica <strong>{{ totalTime }}</strong> horas</p>
+            </figcaption>
+        </figure>
+        <div class="tracks">
+            <div class="track">
+                <h3><strong>Añadir</strong></h3>
+                <h3>-</h3>
+                <h3><strong>Nombre</strong></h3>
+                <h3><strong>Duración</strong></h3>
+                <h3><strong>Album</strong></h3>
+                <h3><strong>Año</strong></h3>
+            </div>
+            <div v-for="track in tracks" :key="track.id" class="track">
+                <a @click="showPopup(track.id)">+</a>
+                <PlaylistPopup v-if="track.isPopupVisible" :track="track" :artist="artist" @close-popup="hidePopup(track.id)" @message="popupMessage" />
+                <img :src="track.image" alt="track.name">
+                <p>{{ track.name }}</p>
+                <p>{{ track.duration }}</p>
+                <p>{{ track.album }}</p>
+                <p>{{ track.year }}</p>
+            </div>
+        </div>
+    </section>
+    <div class="message" id="message" v-if="isMessageVisible"></div>
+</template>
+
 <script setup>
 import { ref } from 'vue';
 import { getById } from '../service/http.service';
@@ -68,41 +103,6 @@ watch(() => props.id, async () => {
     artist.value = await getById(`http://localhost:3000/artists`, props.id);
 });
 </script>
-
-<template>
-    <section>
-        <figure>
-            <div class="artist-image">
-                <img :src="artist.image" :alt="artist.name">
-            </div>
-            <figcaption>
-                <h3>{{ artist.name }}</h3>
-                <p><strong>{{ totalTracks }}</strong> canciones disponibles</p>
-                <p>Horas de musica <strong>{{ totalTime }}</strong> horas</p>
-            </figcaption>
-        </figure>
-        <div class="tracks">
-            <div class="track">
-                <h3><strong>Añadir</strong></h3>
-                <h3>-</h3>
-                <h3><strong>Nombre</strong></h3>
-                <h3><strong>Duración</strong></h3>
-                <h3><strong>Album</strong></h3>
-                <h3><strong>Año</strong></h3>
-            </div>
-            <div v-for="track in tracks" :key="track.id" class="track">
-                <a @click="showPopup(track.id)">+</a>
-                <PlaylistPopup v-if="track.isPopupVisible" :track="track" :artist="artist" @close-popup="hidePopup(track.id)" @message="popupMessage" />
-                <img :src="track.image" alt="track.name">
-                <p>{{ track.name }}</p>
-                <p>{{ track.duration }}</p>
-                <p>{{ track.album }}</p>
-                <p>{{ track.year }}</p>
-            </div>
-        </div>
-    </section>
-    <div class="message" id="message" v-if="isMessageVisible"></div>
-</template>
 
 <style scoped>
 section {

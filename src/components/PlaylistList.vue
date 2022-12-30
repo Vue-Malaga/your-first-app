@@ -1,3 +1,19 @@
+<template>
+    <aside>
+        <h2>Mis Playlists</h2>
+        <ul>
+            <li v-for="playlist in playlists" :key="playlist.id">
+                <RouterLink :to="{ name: 'playlist', params: { id: playlist.id } }">
+                    {{ playlist.name }}
+                </RouterLink>
+            </li>
+        </ul>
+        <RouterLink to="/new-playlist" class="new-playlist">
+            + Crea una nueva
+        </RouterLink>
+    </aside>
+</template>
+
 <script setup>
 import { usePlaylistsStore } from '../stores/playlists';
 import { watch, onMounted } from '@vue/runtime-core';
@@ -17,22 +33,6 @@ watch(() => usePlaylistsStore().playlists,
 );
 
 </script>
-
-<template>
-    <aside>
-        <h2>Mis Playlists</h2>
-        <ul>
-            <li v-for="playlist in playlists" :key="playlist.id">
-                <RouterLink :to="{ name: 'playlist', params: { id: playlist.id } }">
-                    {{ playlist.name }}
-                </RouterLink>
-            </li>
-        </ul>
-        <RouterLink to="/new-playlist" class="new-playlist">
-            + Crea una nueva
-        </RouterLink>
-    </aside>
-</template>
 
 <style scoped>
 aside {
