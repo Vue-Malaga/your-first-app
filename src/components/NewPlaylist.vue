@@ -7,15 +7,17 @@
             <button type="submit" @click="createPlaylist">Create</button>
         </div>
     </section>
+    <div class="message" id="message" v-if="isMessageVisible"></div>
 </template>
 
 <script setup>
 import { usePlaylistsStore } from '../stores/playlists';
-import { ref } from 'vue'
+import { ref, nextTick } from 'vue'
 import { post } from '../service/http.service'
 import { v4 as uuidv4 } from 'uuid'
 
 const name = ref('')
+const isMessageVisible = ref(false)
 const createPlaylist = () => {
     const newPlaylist = {
         id: uuidv4(),
@@ -26,12 +28,25 @@ const createPlaylist = () => {
 
     post('http://localhost:3000/playlists', newPlaylist)
         .then(() => {
-            usePlaylistsStore().fetchPlaylists()
+            usePlaylistsStore().fetchPlaylists();
+            popupMessage('Playlist creada');
         })
         .catch(() => {
-            console.log('Ha ocurrido un error')
+            popupMessage('Ha ocurrido un error');
         });
 }
+
+const popupMessage = (message) => {
+    isMessageVisible.value = true;
+
+    nextTick(() => {
+        document.querySelector("#message").innerText = message;
+    });
+
+    setTimeout(() => {
+        isMessageVisible.value = false;
+    }, 3000);
+};
 </script>
 
 <style scoped>
@@ -82,5 +97,17 @@ section {
 .new-playlist button:hover {
     background: var(--accent-color-1);
     color: var(--background-color);
+}
+
+.message {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #54a056;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
 </style>
