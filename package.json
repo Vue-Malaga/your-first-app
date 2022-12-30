@@ -9,6 +9,7 @@
     "api": "json-server --watch src/assets/mock/db.json"
   },
   "dependencies": {
+    "pinia": "^2.0.28",
     "reset-css": "^5.0.1",
     "uuid": "^9.0.0",
     "vue": "^3.2.45",
