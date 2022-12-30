@@ -25,9 +25,8 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, watch, onMounted } from 'vue';
 import { getById } from '../service/http.service';
-import { watch, onMounted } from '@vue/runtime-core';
 
 const playlist = ref({});
 

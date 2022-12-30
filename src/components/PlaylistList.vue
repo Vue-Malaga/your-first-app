@@ -15,10 +15,9 @@
 </template>
 
 <script setup>
-import { usePlaylistsStore } from '../stores/playlists';
-import { watch, onMounted } from '@vue/runtime-core';
+import { ref, watch, onMounted } from 'vue';
 import { RouterLink } from 'vue-router';
-import { ref } from 'vue';
+import { usePlaylistsStore } from '../stores/playlists';
 
 const playlists = ref([]);
 

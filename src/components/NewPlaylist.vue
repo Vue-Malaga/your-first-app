@@ -11,8 +11,8 @@
 </template>
 
 <script setup>
-import { usePlaylistsStore } from '../stores/playlists';
 import { ref, nextTick } from 'vue'
+import { usePlaylistsStore } from '../stores/playlists';
 import { post } from '../service/http.service'
 import { v4 as uuidv4 } from 'uuid'
 

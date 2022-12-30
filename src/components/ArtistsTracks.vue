@@ -34,10 +34,8 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, watch, onMounted, computed, nextTick } from 'vue';
 import { getById } from '../service/http.service';
-import { watch, onMounted, computed, nextTick } from '@vue/runtime-core';
-import { defineProps } from '@vue/runtime-core';
 import PlaylistPopup from './PlaylistPopup.vue';
 
 const artist = ref({});

@@ -5,7 +5,7 @@
             <input type="text" placeholder="Busca tu artista favorito.." v-model="artistSearched" />
         </div>
         <div class="artists">
-            <RouterLink v-for="artist in filterArtist('')" :key="artist.id"
+            <RouterLink v-for="artist in filterArtist()" :key="artist.id"
                 :to="{ name: 'artist', params: { id: artist.id } }">
                 <Artists :artist="artist" />
             </RouterLink>
@@ -14,10 +14,9 @@
 </template>
 
 <script setup>
-import Artists from './Artists.vue';
-import { computed, onMounted } from '@vue/runtime-core';
+import { ref, onMounted } from 'vue';
 import { RouterLink } from 'vue-router';
-import { ref } from 'vue';
+import Artists from './Artists.vue';
 import { get } from '../service/http.service';
 
 const artists = ref([]);
@@ -28,7 +27,7 @@ onMounted(async () => {
     artists.value = response;
 });
 
-const filterArtist = (artist) => {
+const filterArtist = () => {
     return artists.value.filter(({ name }) => name.toLowerCase().includes(artistSearched.value.toLowerCase()));
 };
 </script>

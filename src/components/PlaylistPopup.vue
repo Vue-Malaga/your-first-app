@@ -21,9 +21,8 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from "vue";
 import { usePlaylistsStore } from '../stores/playlists';
-import { onMounted } from "@vue/runtime-core";
-import { ref } from "vue";
 import { put } from "../service/http.service";
 
 const playlists = ref([]);
