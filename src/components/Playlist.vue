@@ -107,6 +107,7 @@ img {
     height: 4rem;
     border-radius: 10px;
     margin-right: 1rem;
+    border: var(--main-border);
 }
 
 h3 {
