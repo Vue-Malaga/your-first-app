@@ -1,11 +1,7 @@
 <template>
     <main>
-        <section class="search-box">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Busca tu artista favorito.." v-model="artistSearched" />
-        </section>
         <section class="artists">
-            <Artists :artist="artist" v-for="artist in filterArtist()" :key="artist.id" />
+            <Artists :artist="artist" v-for="artist in artists" :key="artist.id" />
         </section>
     </main>
 </template>
@@ -16,13 +12,6 @@ import Artists from "./Artists.vue";
 import { get } from "../service/http.service";
 
 const artists = ref([]);
-const artistSearched = ref("");
-
-const filterArtist = () => {
-    return artists.value.filter(({ name }) =>
-        name.toLowerCase().includes(artistSearched.value.toLowerCase())
-    );
-};
 
 onMounted(async () => {
     const response = await get("http://localhost:3000/artists");
