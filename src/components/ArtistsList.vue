@@ -2,27 +2,16 @@
     <main>
         <section class="search-box">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input
-                type="text"
-                placeholder="Busca tu artista favorito.."
-                v-model="artistSearched"
-            />
+            <input type="text" placeholder="Busca tu artista favorito.." v-model="artistSearched" />
         </section>
         <section class="artists">
-            <RouterLink
-                v-for="artist in filterArtist()"
-                :key="artist.id"
-                :to="{ name: 'artist', params: { id: artist.id } }"
-            >
-                <Artists :artist="artist" />
-            </RouterLink>
+            <Artists :artist="artist" v-for="artist in filterArtist()" :key="artist.id" />
         </section>
     </main>
 </template>
 
 <script setup>
 import { ref, onMounted } from "vue";
-import { RouterLink } from "vue-router";
 import Artists from "./Artists.vue";
 import { get } from "../service/http.service";
 
