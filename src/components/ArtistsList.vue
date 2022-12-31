@@ -1,22 +1,7 @@
 <template>
-    <main>
-        <section class="artists">
-            <Artists :artist="artist" v-for="artist in artists" :key="artist.id" />
-        </section>
-    </main>
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
-import Artists from "./Artists.vue";
-import { get } from "../service/http.service";
-
-const artists = ref([]);
-
-onMounted(async () => {
-    const response = await get("http://localhost:3000/artists");
-    artists.value = response;
-});
 </script>
 
 <style scoped>
