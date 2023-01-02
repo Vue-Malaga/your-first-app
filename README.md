@@ -4,13 +4,16 @@
 ---
 
 ## Índice
-- [Introducción a Vue]()
-- [Explicación del proyecto]()
-  - [Distintas ramas]()
-  - [Estructura del proyecto]()
-  - [Como arrancar la aplicación]()
-- [Objetivos / ToDo]()
-- [Aplicación final]()
+- [VUETIFY - Tu primera app con Vue](#vuetify---tu-primera-app-con-vue)
+          - [VueMálaga, Jesús Narbona y Raúl Aguilar](#vuemálaga-jesús-narbona-y-raúl-aguilar)
+  - [Índice](#índice)
+  - [Introducción a Vue](#introducción-a-vue)
+  - [Explicación sobre el proyecto](#explicación-sobre-el-proyecto)
+      - [Las ramas](#las-ramas)
+      - [Estructura](#estructura)
+      - [¿Como arrancar el proyecto?](#como-arrancar-el-proyecto)
+  - [Objectivos / ToDo](#objectivos--todo)
+  - [Aplicación final](#aplicación-final)
   
 ---
 ## Introducción a Vue
@@ -22,11 +25,13 @@
 En este proyecto vamos a desarrollar una aplicación paso a paso con Vue, en el que empezaremos con un proyecto casi vacio y poco a poco iremos avanzando.
 Cada avance será explicado en los distintos **README.md** de cada rama.
 
+#### Las ramas
 - [Rama 1 - Artist and ArtistList](https://github.com/Vue-Malaga/your-first-app/tree/artist-and-artistlist/src/components), en esta rama crearemos nuestros primeros componentes y haremos uso de directivas propias de **Vue**.
 - [Rama 2 - Filter artists](https://github.com/Vue-Malaga/your-first-app/tree/filter-artists), en la segunda rama aprenderemos a filtrar los diferentes artistas que hemos creado en la rama anterior, haremos uso de otras directivas bastantes importantes de **Vue**.
 - [Rama 3 - Artists tracks](https://github.com/Vue-Malaga/your-first-app/tree/artist-tracks), al dar click a los diferentes artistas podremos acceder a sus canciones, en esta rama aprenderemos el uso de eventos en **Vue** además de lo aprendido anteriormente.
 - [Rama 4 - Proyecto final](https://github.com/Vue-Malaga/your-first-app/tree/final), esta rama es un extra, en ella explicamos en profundidad diferentes conceptos que han sido utilizados a lo largo del proyecto, como puede ser **Routes**, **Pinia** y **Request de datos (fetch)**
 
+#### Estructura
 Esta rama **"base"** es el inicio del proyecto en el cual tenemos que fijarnos y trabajar en el siguiente directorio:
 
 ![Estructura carpeta src](public/images/estructura-src.png)
@@ -93,9 +98,13 @@ El objetivo principal de este proyecto es aprender desde cero **Vue 3** utilizan
 
 La lista de objetivos o tareas a completar para las distintas ramas:
 - [ ] Crear un **componente artista** y otro que pueda cargar una **lista de artistas** utilizando el componente anterior.
-    ![]()
+    ![](public/images/component-artist.png)
 - [ ] Al dar **click** a un artista, tienen que cargar todas sus canciones.
-    ![]()
+    ![](public/images/component-artist-list.png)
 - [ ] **Filtrar la lista de artistas** con un campo de buscar, este campo tiene que tener una **busqueda dinámica**, es decir cada vez que se escribe en él se va filtrando los artistas.
-    ![]()
+    ![](public/images/filter-artist.gif)
+
+---
+## Aplicación final
+
 
