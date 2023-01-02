@@ -1,11 +1,10 @@
 # VUETIFY - Tu primera app con Vue
-###### VueMálaga, Jesús Narbona y Raúl Aguilar
+VueMálaga, Jesús Narbona y Raúl Aguilar
 
 ---
 
 ## Índice
 - [VUETIFY - Tu primera app con Vue](#vuetify---tu-primera-app-con-vue)
-          - [VueMálaga, Jesús Narbona y Raúl Aguilar](#vuemálaga-jesús-narbona-y-raúl-aguilar)
   - [Índice](#índice)
   - [Introducción a Vue](#introducción-a-vue)
   - [Explicación sobre el proyecto](#explicación-sobre-el-proyecto)
