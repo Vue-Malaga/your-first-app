@@ -88,6 +88,7 @@ const props = defineProps({
 
 #### Definiendo el html de nuestro componente
 Vamos a diseñar el HTML necesario para poder montar nuestro componente tal y como lo queremos, es decir como aparece en la siguiente imagen:
+
 ![](public/images/component-artist.png)
 
 Es decir nostros de los **props** que hemos pasado al componente vamos a necesitar la imagen (url) y las canciones para poder calcular la cantidad de canciones.
@@ -141,6 +142,7 @@ onMounted(async () => {
 
 #### Definiendo el html de nuestro componente
 Vamos a diseñar el HTML necesario para poder montar nuestro componente tal y como lo queremos, es decir como aparece en la siguiente imagen:
+
 ![](public/images/component-artist-list.png)
 
 Es decir nostros en el sript hemos realizado una petición al servicio http.service para que nos devuelva los artistas y los hemos almacenado en la variable **artists**.
