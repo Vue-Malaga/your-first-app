@@ -9,7 +9,6 @@ VueMálaga, Jesús Narbona y Raúl Aguilar
   - [Rama 2 - Filter Artists](#rama-2---filter-artists)
       - [Añadimos un input para el filtro](#añadimos-un-input-para-el-filtro)
       - [Añadimos la variable artistSearched y la función filterArtist](#añadimos-la-variable-artistsearched-y-la-función-filterartist)
-  - [Tambien hemos añadido una función **filterArtist** que es la que se encarga de filtrar los artistas por el nombre que le pasemos en el input.](#tambien-hemos-añadido-una-función-filterartist-que-es-la-que-se-encarga-de-filtrar-los-artistas-por-el-nombre-que-le-pasemos-en-el-input)
     - [Resultado final](#resultado-final)
 
 ---
@@ -61,6 +60,7 @@ onMounted(async () => {
 Como vemos hemos añadido una variable **artistSearched** que es la que enlazamos con el input del filtro con la directiva **v-model** que comentamo antes.
 
 Tambien hemos añadido una función **filterArtist** que es la que se encarga de filtrar los artistas por el nombre que le pasemos en el input.
+
 ---
 
 ### Resultado final
