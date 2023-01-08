@@ -1,4 +1,25 @@
-# Listado de canciones de cada artista
+# VUETIFY - Tu primera app con Vue
+VueMálaga, Jesús Narbona y Raúl Aguilar
+
+---
+## Índice
+
+- [VUETIFY - Tu primera app con Vue](#vuetify---tu-primera-app-con-vue)
+  - [Índice](#índice)
+  - [Rama 4 - Artists Tracks](#rama-4---artists-tracks)
+    - [Configuración de las rutas](#configuración-de-las-rutas)
+    - [Redirigir al hacer click sobre los artistas](#redirigir-al-hacer-click-sobre-los-artistas)
+    - [Componente para las canciones](#componente-para-las-canciones)
+      - [Listar canciones](#listar-canciones)
+        - [Obtener información del artista](#obtener-información-del-artista)
+        - [Obtener información de las canciones](#obtener-información-de-las-canciones)
+        - [Montar el template](#montar-el-template)
+    - [Guardar canciones con PlaylistPopup](#guardar-canciones-con-playlistpopup)
+        - [¿Cómo se usa?](#cómo-se-usa)
+    - [Mensaje para el usuario](#mensaje-para-el-usuario)
+
+---
+# Rama 4 - Artists Tracks
 
 En esta rama nos vamos a centrar en mostrar un listado con todas las canciones de cada artista cuando le demos click a cada uno. 
 
@@ -7,6 +28,8 @@ Además, también vamos a hacer uso del componente `PlaylistPopup`, el cual apar
 Nos tendría que quedar algo parecido a esto:
 
 ![](./public/artist-tracks-full.gif)
+
+---
 
 ## Configuración de las rutas
 
@@ -70,6 +93,8 @@ Por ahora debería verse así:
 
 ![](./public/links-working.gif)
 
+---
+
 ## Componente para las canciones
 
 Tendremos un nuevo componente llamado `ArtistTracks`, en el cual:
@@ -122,7 +147,7 @@ watch(() => props.id, async () => {
 </script>
 ```
 
-#### Obtener la información de las canciones
+#### Obtener información de las canciones
 
 Una vez tenemos la información del artista vamos a sacar las canciones a una variable aparte para poder usar dicha información de manera más sencilla. Vamos a necesitar las canciones en sí, y además el tiempo total de reproducción y el total de canciones que tiene el artista:
 
@@ -223,6 +248,8 @@ Nuestro `<template>` estará formado por dos partes:
 ```
 
 Con esto ya tendríamos la lista de canciones hecha, pero no tiene ninguna funcionalidad. Ahora haremos que se puedan guardar canciones en las playlist.
+
+---
 
 ### Guardar canciones con `PlaylistPopup`
 
@@ -387,8 +414,9 @@ Debería ocurrir lo siguiente al darle al botón "+":
 
 ![](./public/popup.gif)
 
+---
 
-#### Mensaje para el usuario
+### Mensaje para el usuario
 
 Vamos a crear un pequeño mensaje que informará al usuario que todo ha ido bien (o no...). Para ello usaremos el emit `message` del popup.
 
