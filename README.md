@@ -180,4 +180,5 @@ Como podemos observar hemos llamado a nuestro componente Artist que creamos y he
 
 ### Resultado final
 
+![](public/images/final.gif)
 
