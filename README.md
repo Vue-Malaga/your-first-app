@@ -41,6 +41,7 @@ Tambien algo a tener en cuenta es que hemos añadido un **v-model** al input par
 #### Añadimos la variable artistSearched y la función filterArtist
 
 ```vue
+<script setup>
 import { ref, onMounted } from "vue";
 import Artists from "./Artists.vue";
 import { get } from "../service/http.service";
@@ -55,6 +56,7 @@ onMounted(async () => {
     const response = await get("http://localhost:3000/artists");
     artists.value = response;
 });
+</script>
 ```
 
 Como vemos hemos añadido una variable **artistSearched** que es la que enlazamos con el input del filtro con la directiva **v-model** que comentamo antes.
