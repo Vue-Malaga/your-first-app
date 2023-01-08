@@ -11,7 +11,7 @@ VueMálaga, Jesús Narbona y Raúl Aguilar
 
 ## Aplicación final
 Una vez terminada todas las ramas tendríamos esta aplicación:
-![app-final-img](public/images/app-final.gif)
+![app-final-img](public/app-final.gif)
 
 ### Posibles features
 - [ ] Simplificar los popUps con librerías
