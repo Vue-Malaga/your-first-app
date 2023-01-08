@@ -16,8 +16,6 @@ VueMálaga, Jesús Narbona y Raúl Aguilar
       - [Estructura](#estructura)
       - [¿Como arrancar el proyecto?](#como-arrancar-el-proyecto)
   - [Objetivos / ToDo](#objectivos--todo)
-  - [Aplicación final](#aplicación-final)
-    - [Posibles features](#posibles-features)
   
 ---
 ## Introducción a Vue
@@ -205,21 +203,3 @@ La lista de objetivos o tareas a completar para las distintas ramas:
     ![](public/images/component-artist-list.png)
 - [ ] **Filtrar la lista de artistas** con un campo de buscar, este campo tiene que tener una **busqueda dinámica**, es decir cada vez que se escribe en él se va filtrando los artistas.
     ![](public/images/filter-artist.gif)
-
----
-## Aplicación final
-Una vez terminada todas las ramas tendríamos esta aplicación:
-![app-final-img](public/images/app-final.gif)
-
-### Posibles features
-- [ ] Simplificar los popUps con librerías
-- [ ] Simplificar los alerts con librerías (SweetAlert)
-- [ ] Implementar cuentas
-- [ ] Implementar register y login
-- [ ] Implementar compartir listas con usuarios
-
-Os animamos a **modificar** y a **avanzar** la aplicación a vuestro gusto.
-> Si es el caso, nos gustaría que lo compartierais en las redes para poder ver vuestros avances etiquetando si es posible a **@VuejsMalaga**.
-> 
-> Cualquier duda o comentario podemos resolverlo através de Twitter **@VuejsMalaga**.
-
