@@ -2,6 +2,20 @@
 VueMálaga, Jesús Narbona y Raúl Aguilar
 
 ---
+## Índice
+
+- [VUETIFY - Tu primera app con Vue](#vuetify---tu-primera-app-con-vue)
+  - [Índice](#índice)
+  - [Rama 1 - Artits and ArtistList (componentes)](#rama-1---artits-and-artistlist-componentes)
+    - [Crear componente Artist](#crear-componente-artist)
+      - [Definiendo el script de nuestro componente](#definiendo-el-script-de-nuestro-componente)
+      - [Definiendo el html de nuestro componente](#definiendo-el-html-de-nuestro-componente)
+    - [Crear componente ArtistList](#crear-componente-artistlist)
+      - [Definiendo el script de nuestro componente](#definiendo-el-script-de-nuestro-componente-1)
+      - [Definiendo el html de nuestro componente](#definiendo-el-html-de-nuestro-componente-1)
+    - [Resultado final](#resultado-final)
+
+---
 ## Rama 1 - Artits and ArtistList (componentes)
 
 En esta rama vamos a aprender a como crear un componente, como pasar **props** o propiedades y utilizar directivas propias de Vue.
