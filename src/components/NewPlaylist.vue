@@ -18,7 +18,7 @@
 <script setup>
 import { ref, nextTick } from "vue";
 import { usePlaylistsStore } from "../stores/playlists";
-import { post } from "../service/http.service";
+import { useHttpStore } from "../stores/http";
 import { v4 as uuidv4 } from "uuid";
 
 const name = ref("");
@@ -30,7 +30,7 @@ const createPlaylist = () => {
         tracks: [],
     };
 
-    post("http://localhost:3000/playlists", newPlaylist)
+    useHttpStore().post("http://localhost:3000/playlists", newPlaylist)
         .then(() => {
             usePlaylistsStore().fetchPlaylists();
             popupMessage("Playlist creada");
