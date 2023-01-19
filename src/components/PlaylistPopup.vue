@@ -28,7 +28,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { usePlaylistsStore } from "../stores/playlists";
-import { put } from "../service/http.service";
+import { useHttpStore } from "../stores/http";
 
 const props = defineProps({
     track: {
@@ -76,7 +76,7 @@ const insertTrack = (artist, song) => {
 
     playlist.tracks = [...playlist.tracks, { artist: artist, song: song }];
 
-    put(`http://localhost:3000/playlists/${playlist.id}`, playlist)
+    useHttpStore().put(`http://localhost:3000/playlists/${playlist.id}`, playlist)
         .then(() => {
             emits("message", "Canción añadida a la playlist");
             emits("closePopup");
