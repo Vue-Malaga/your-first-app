@@ -13,7 +13,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import Artists from "./Artists.vue";
-import { get } from "../service/http.service";
+import { useHttpStore } from "../stores/http";
 
 const artists = ref([]);
 const artistSearched = ref("");
@@ -25,7 +25,7 @@ const filterArtist = () => {
 };
 
 onMounted(async () => {
-    const response = await get("http://localhost:3000/artists");
+    const response = await useHttpStore().get("http://localhost:3000/artists");
     artists.value = response;
 });
 </script>
