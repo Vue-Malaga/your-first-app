@@ -45,7 +45,7 @@
 
 <script setup>
 import { ref, watch, onMounted, computed, nextTick } from "vue";
-import { getById } from "../service/http.service";
+import { useHttpStore } from "../stores/http";
 import PlaylistPopup from "./PlaylistPopup.vue";
 
 const props = defineProps({
@@ -82,7 +82,7 @@ const popupMessage = (message) => {
 };
 
 onMounted(async () => {
-    artist.value = await getById(`http://localhost:3000/artists`, props.id);
+    artist.value = await useHttpStore().getById(`http://localhost:3000/artists`, props.id);
 
     tracks.value = artist.value.tracks.map((track) => {
         return {
@@ -108,7 +108,7 @@ onMounted(async () => {
 });
 
 watch(() => props.id, async () => {
-    artist.value = await getById(`http://localhost:3000/artists`, props.id);
+    artist.value = await useHttpStore().getById(`http://localhost:3000/artists`, props.id);
 });
 </script>
 

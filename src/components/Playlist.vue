@@ -26,7 +26,7 @@
 
 <script setup>
 import { ref, watch, onMounted } from "vue";
-import { getById } from "../service/http.service";
+import { useHttpStore } from "../stores/http";
 
 const props = defineProps({
     id: {
@@ -40,11 +40,11 @@ const playlist = ref({});
 const isEmpty = ref(() => playlist.value.tracks.length === 0);
 
 onMounted(async () => {
-    playlist.value = await getById(`http://localhost:3000/playlists`, props.id);
+    playlist.value = await useHttpStore().getById(`http://localhost:3000/playlists`, props.id);
 });
 
 watch(() => props.id, async () => {
-    playlist.value = await getById(`http://localhost:3000/playlists`, props.id);
+    playlist.value = await useHttpStore().getById(`http://localhost:3000/playlists`, props.id);
 });
 </script>
 
